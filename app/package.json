@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "@ky-is/vue-cli-plugin-tailwind": "^2.0.0",
+    "@verida/account-web-vault": "^1.1.12",
+    "@verida/client-ts": "^1.1.15",
     "@vue/cli-plugin-babel": "^4.5.11",
     "@vue/cli-plugin-eslint": "^4.5.11",
     "@vue/cli-plugin-unit-jest": "^5.0.0-rc.1",
