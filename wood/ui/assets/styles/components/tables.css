@@ -1,0 +1,30 @@
+.wood-table {
+  @apply border border-themeBackground-400 w-full shadow-lg relative;
+}
+
+.wood-table thead {
+  @apply bg-themeBackground-200 text-themeBackground-800;
+}
+
+.wood-table th {
+  @apply p-3;
+}
+
+/* The Tailwind :even and :hover properties conflict, where :even is displayed, but the :hover
+   effect is not.  Manually defining the rules, however, works as intended */
+.wood-table tbody tr:nth-child(even) {
+  @apply bg-themeBackground-100;
+}
+.wood-table tbody tr:hover {
+  @apply bg-themePrimary-200;
+}
+
+.wood-table td {
+  @apply p-2 border border-themeBackground-400 bg-white;
+}
+
+.wood-table .loading-overlay {
+  @apply absolute top-0 right-0 bottom-0 left-0;
+  @apply flex justify-center items-center;
+  background-color:rgba(255, 255, 255, 0.75);
+}

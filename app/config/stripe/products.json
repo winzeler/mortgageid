@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Bronze",
+    "description": "Bronze plan.",
+    "active": true,
+    "metadata": {
+      "order": "1",
+      "bullets": "[\"100 credits/month.\",\"24h support.\"]",
+      "capabilities": "[\"general-access\"]"
+    },
+    "prices": [
+      {
+        "nickname": "Bronze Monthly",
+        "active": true,
+        "unit_amount": 10000,
+        "currency": "usd",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": {
+          "order": "1"
+        }
+      },
+      {
+        "nickname": "Bronze Annual",
+        "active": true,
+        "unit_amount": 100000,
+        "currency": "usd",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": {
+          "order": "2"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Silver",
+    "description": "Silver plan.",
+    "active": true,
+    "metadata": {
+      "order": "2",
+      "bullets": "[\"500 credits/month.\",\"24h support.\"]",
+      "capabilities": "[\"general-access\"]"
+    },
+    "prices": [
+      {
+        "nickname": "Silver Monthly",
+        "active": true,
+        "unit_amount": 50000,
+        "currency": "usd",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": {
+          "order": "1"
+        }
+      },
+      {
+        "nickname": "Silver Annual",
+        "active": true,
+        "unit_amount": 500000,
+        "currency": "usd",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": {
+          "order": "2"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gold",
+    "description": "Gold plan.",
+    "active": true,
+    "metadata": {
+      "order": "3",
+      "bullets": "[\"1000 credits/month.\",\"24h support.\"]",
+      "capabilities": "[\"general-access\"]"
+    },
+    "prices": [
+      {
+        "nickname": "Gold Monthly",
+        "active": true,
+        "unit_amount": 100000,
+        "currency": "usd",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": {
+          "order": "1"
+        }
+      },
+      {
+        "nickname": "Gold Annual",
+        "active": true,
+        "unit_amount": 1000000,
+        "currency": "usd",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": {
+          "order": "2"
+        }
+      }
+    ]
+  }
+]

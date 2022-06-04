@@ -1,0 +1,60 @@
+version: '3'
+
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile.postgres
+    networks:
+      - app-network
+    environment:
+      POSTGRES_PASSWORD: nodewood
+      POSTGRES_MULTIPLE_DATABASES: "nodewood,test"
+    expose:
+      - 5432
+    ports:
+      - '5432:5432'
+  ui:
+    build:
+      context: ../..
+      dockerfile: wood/docker/Dockerfile
+    networks:
+      - app-network
+    env_file: ../../.env
+    volumes:
+      - ../..:/nodewood
+    command: yarn dev-ui
+    ports:
+      - '8888:8888'
+      - '9000:9000'
+  api:
+    build:
+      context: ../..
+      dockerfile: wood/docker/Dockerfile
+    networks:
+      - app-network
+    volumes:
+      - ../..:/nodewood
+    ports:
+      - '3000:3000'
+    links:
+      - postgres
+    depends_on:
+      - postgres
+    command: yarn dev-api
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    networks:
+      - app-network
+    ports:
+      - '80:80'
+      - '443:443'
+    links:
+      - api:api
+      - ui:ui
+
+networks:
+  app-network:
+    driver: bridge

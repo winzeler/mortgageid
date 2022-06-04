@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Validator errors should get failing rule for single field 1`] = `
+Array [
+  Object {
+    "code": "ERROR_EMPTY",
+    "title": "def is empty.",
+  },
+]
+`;
+
+exports[`Validator errors should get failing rules for aliased fields 1`] = `
+Object {
+  "an_alias": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "title": "def is empty.",
+    },
+  ],
+}
+`;
+
+exports[`Validator errors should get failing rules for multiple fields 1`] = `
+Object {
+  "abc": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "title": "abc is empty.",
+    },
+  ],
+  "def": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "title": "def is empty.",
+    },
+  ],
+}
+`;
+
+exports[`Validator errors should incorporate api errors for multiple fields 1`] = `
+Object {
+  "abc": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "title": "abc is empty.",
+    },
+    Object {
+      "code": "ERROR_API",
+      "title": "An API error for abc.",
+    },
+  ],
+  "def": Array [
+    Object {
+      "code": "ERROR_API",
+      "title": "An API error for def.",
+    },
+  ],
+}
+`;
+
+exports[`Validator errors should incorporate api errors for single fields with existing error 1`] = `
+Array [
+  Object {
+    "code": "ERROR_EMPTY",
+    "title": "abc is empty.",
+  },
+  Object {
+    "code": "ERROR_API",
+    "title": "An API error for abc.",
+  },
+]
+`;
+
+exports[`Validator errors should incorporate api errors for single fields with no existing error 1`] = `
+Array [
+  Object {
+    "code": "ERROR_API",
+    "title": "An API error for def.",
+  },
+]
+`;
+
+exports[`Validator errors should return empty when aliased fields have no errors 1`] = `Object {}`;
+
+exports[`Validator errors should return empty when no errors 1`] = `Object {}`;

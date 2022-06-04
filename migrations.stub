@@ -1,0 +1,11 @@
+// Knex.js Schema Builder documentation:
+// https://knexjs.org/#Schema
+
+exports.up = async (knex) => {
+  await knex.schema.createTable('TABLE_NAME', (table) => {
+    table.increments();
+    table.timestamps(true, true);
+  });
+};
+
+exports.down = async (knex) => knex.schema.dropTable('TABLE_NAME');

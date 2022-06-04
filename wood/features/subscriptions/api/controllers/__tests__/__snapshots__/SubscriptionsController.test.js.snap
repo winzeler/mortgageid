@@ -1,0 +1,510 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubscriptionsController DELETE /subscriptions should delete user's subscription 1`] = `
+"Message: 
+
+User: name (user@email.com)"
+`;
+
+exports[`SubscriptionsController GET /subscriptions/coupons/:id should error when expired 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EXPIRED",
+      "title": "The coupon has expired.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController GET /subscriptions/coupons/:id should error when incorrect currency 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "title": "The coupon could not be found.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController GET /subscriptions/coupons/:id should error when missing coupon 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "title": "The coupon could not be found.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController GET /subscriptions/coupons/:id should error when too many redemptions 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EXPIRED",
+      "title": "The coupon has expired.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController GET /subscriptions/coupons/:id should get a valid coupon 1`] = `
+Object {
+  "data": Object {
+    "coupon": Object {
+      "amount_off": null,
+      "currency": null,
+      "duration": "forever",
+      "duration_in_months": null,
+      "id": "50_percent",
+      "max_redemptions": 50,
+      "metadata": Object {},
+      "name": "50 percent",
+      "percent_off": 50,
+      "redeem_by": null,
+    },
+  },
+}
+`;
+
+exports[`SubscriptionsController GET /subscriptions/invoices should get list of invoices 1`] = `
+Object {
+  "data": Object {
+    "invoices": Array [
+      Object {
+        "created": 1596512754,
+        "currency": "cad",
+        "id": "in_sample",
+        "invoice_pdf": "https://some_url.com",
+        "status": "draft",
+        "total": 1000,
+      },
+    ],
+  },
+}
+`;
+
+exports[`SubscriptionsController GET /subscriptions/invoices should return an empty list when no customer ID 1`] = `
+Object {
+  "data": Object {
+    "invoices": Array [],
+  },
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions should create subscription 1`] = `
+Object {
+  "data": Object {
+    "payment_intent": Object {
+      "id": "latest_invoice_payment_intent",
+    },
+    "subscription": Object {
+      "coupon_id": "50_percent",
+      "id": 1,
+      "next_billing_date": "2020-01-31T00:00:00+00:00",
+      "next_invoice_total": 1234,
+      "price_id": "price_simple_monthly",
+      "product_id": "prod_simple",
+      "status": "active",
+      "subscription_id": "new_subscription_id",
+      "tax_ids": Array [
+        "txr_ontario",
+      ],
+      "team_id": 1,
+      "trial_ends_at": null,
+    },
+  },
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions should create subscription 2`] = `
+Object {
+  "coupon_id": "50_percent",
+  "created_at": Any<Date>,
+  "id": 1,
+  "next_billing_date": 2020-01-31T00:00:00.000Z,
+  "next_invoice_total": 1234,
+  "price_id": "price_simple_monthly",
+  "product_id": "prod_simple",
+  "status": "active",
+  "subscription_id": "new_subscription_id",
+  "tax_ids": Array [
+    "txr_ontario",
+  ],
+  "team_id": 1,
+  "trial_ends_at": null,
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions should validate empty request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "line1",
+      },
+      "title": "You must enter an address.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "country",
+      },
+      "title": "You must enter a country.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "state",
+      },
+      "title": "You must enter a state/province.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "city",
+      },
+      "title": "You must enter a city.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "postal_code",
+      },
+      "title": "You must enter a zip/postal code.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "payment_method_id",
+      },
+      "title": "You must choose a payment method.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "product_id",
+      },
+      "title": "You must select a plan.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "price_id",
+      },
+      "title": "You must select a price.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions should validate invalid country 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_IN_LIST",
+      "meta": Object {
+        "list": Object {
+          "VA": "valid",
+        },
+      },
+      "source": Object {
+        "parameter": "country",
+      },
+      "title": "You must select a valid country.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions should validate invalid product & price 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_IN_LIST",
+      "meta": Object {
+        "list": Array [
+          "Advanced",
+          "Simple",
+          "Member limit",
+        ],
+      },
+      "source": Object {
+        "parameter": "product_id",
+      },
+      "title": "You must select a valid product.",
+    },
+    Object {
+      "code": "ERROR_NOT_IN_LIST",
+      "meta": Object {
+        "list": Array [],
+      },
+      "source": Object {
+        "parameter": "price_id",
+      },
+      "title": "You must select a valid price.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions should validate invalid state 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_IN_LIST",
+      "meta": Object {
+        "list": Array [
+          "valid-state",
+        ],
+      },
+      "source": Object {
+        "parameter": "state",
+      },
+      "title": "You must select a valid state / province.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions should validate price from incorrect product 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_IN_LIST",
+      "meta": Object {
+        "list": Array [
+          "Simple Monthly",
+          "Simple Annual",
+        ],
+      },
+      "source": Object {
+        "parameter": "price_id",
+      },
+      "title": "You must select a valid price.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions/preview should preview subscription change 1`] = `
+Object {
+  "data": Object {
+    "discounts": Array [
+      Object {
+        "amount": "-$5.00 USD",
+        "description": "50 percent (50%)",
+      },
+    ],
+    "lines": Array [
+      Object {
+        "amount": "-$4.82 USD",
+        "description": "Unused time on Bronze after 21 Aug 2020",
+      },
+      Object {
+        "amount": "$50.00 USD",
+        "description": "1 × Bronze (at $50.00 / year)",
+      },
+    ],
+    "taxes": Array [
+      Object {
+        "amount": "-$5.20 USD",
+        "description": "GST (10%)",
+      },
+    ],
+    "total": Object {
+      "amount": "-$45.17 USD",
+      "description": "Total credits to be applied",
+    },
+  },
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions/preview should validate the request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "product_id",
+      },
+      "title": "You must select a plan.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "price_id",
+      },
+      "title": "You must select a price.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions/retry should retry subscription creation, cancelling old sub with different values 1`] = `
+Object {
+  "data": Object {
+    "subscription": Object {
+      "coupon_id": "5_off",
+      "id": 2,
+      "next_billing_date": "2020-01-31T00:00:00+00:00",
+      "next_invoice_total": 1234,
+      "price_id": "price_simple_monthly",
+      "product_id": "prod_simple",
+      "status": "active",
+      "subscription_id": "new_subscription_id",
+      "tax_ids": Array [
+        "txr_ontario",
+      ],
+      "team_id": 1,
+      "trial_ends_at": null,
+    },
+  },
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions/retry should retry subscription creation, cancelling old sub with different values 2`] = `
+Object {
+  "coupon_id": "5_off",
+  "created_at": Any<Date>,
+  "id": 2,
+  "next_billing_date": 2020-01-31T00:00:00.000Z,
+  "next_invoice_total": 1234,
+  "price_id": "price_simple_monthly",
+  "product_id": "prod_simple",
+  "status": "active",
+  "subscription_id": "new_subscription_id",
+  "tax_ids": Array [
+    "txr_ontario",
+  ],
+  "team_id": 1,
+  "trial_ends_at": null,
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`SubscriptionsController POST /subscriptions/retry should validate request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "line1",
+      },
+      "title": "You must enter an address.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "country",
+      },
+      "title": "You must enter a country.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "state",
+      },
+      "title": "You must enter a state/province.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "city",
+      },
+      "title": "You must enter a city.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "postal_code",
+      },
+      "title": "You must enter a zip/postal code.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "payment_method_id",
+      },
+      "title": "You must choose a payment method.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "product_id",
+      },
+      "title": "You must select a plan.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "price_id",
+      },
+      "title": "You must select a price.",
+    },
+  ],
+}
+`;
+
+exports[`SubscriptionsController PUT /subscriptions should change the subscription 1`] = `
+Object {
+  "data": Object {
+    "subscription": Object {
+      "coupon_id": "50_percent",
+      "id": 1,
+      "next_billing_date": "2020-01-31T00:00:00+00:00",
+      "next_invoice_total": -4517,
+      "price_id": "price_simple_monthly",
+      "product_id": "prod_simple",
+      "status": "active",
+      "subscription_id": "subscription_id",
+      "tax_ids": Array [],
+      "team_id": 1,
+      "trial_ends_at": null,
+    },
+  },
+}
+`;
+
+exports[`SubscriptionsController PUT /subscriptions should change the subscription 2`] = `
+Object {
+  "coupon_id": "50_percent",
+  "created_at": Any<Date>,
+  "id": 1,
+  "next_billing_date": 2020-01-31T00:00:00.000Z,
+  "next_invoice_total": -4517,
+  "price_id": "price_simple_monthly",
+  "product_id": "prod_simple",
+  "status": "active",
+  "subscription_id": "subscription_id",
+  "tax_ids": Array [],
+  "team_id": 1,
+  "trial_ends_at": null,
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`SubscriptionsController PUT /subscriptions should validate the request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "product_id",
+      },
+      "title": "You must select a plan.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "price_id",
+      },
+      "title": "You must select a price.",
+    },
+  ],
+}
+`;

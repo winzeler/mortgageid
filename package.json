@@ -1,0 +1,41 @@
+{
+  "name": "mortgage-id",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app/api/api.js",
+  "private": true,
+  "_moduleAliases": {
+    "@app": "./app",
+    "@wood": "./wood"
+  },
+  "scripts": {
+    "lint": "npx eslint app wood",
+    "migrate": "knex migrate:latest",
+    "rollback": "knex migrate:rollback",
+    "migrate-test": "knex migrate:latest --env test",
+    "rollback-test": "knex migrate:rollback --env test",
+    "create-migration": "cd app && knex migrate:make",
+    "test": "LOG_LEVEL=error npx jest --runInBand --detectOpenHandles",
+    "dev-ui": "cd app && vue-cli-service serve",
+    "build-ui": "cd app && vue-cli-service build",
+    "dev-api": "cd app/api && NODE_ENV=development nodemon --watch . --watch ../config --watch ../features --watch ../lib --watch ../../wood ./api.js | npx pino-pretty"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "eslint": "^7.19.0",
+    "husky": "^5.0.9",
+    "lint-staged": "^10.5.4"
+  },
+  "workspaces": [
+    "app",
+    "wood"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && wood/prevent_wood_commit.sh"
+    }
+  },
+  "lint-staged": {
+    "**/*.js": "eslint"
+  }
+}

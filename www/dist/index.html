@@ -1,0 +1,38 @@
+<html>
+<head>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+  <div class="flex flex-col h-screen bg-gray-200">
+    <div class="flex justify-center items-center w-full h-full">
+      <div class="bg-gray-100 shadow-lg rounded w-2/5">
+        <h2 class="bg-white border border-t-0 border-l-0 border-r-0 px-8 py-4 mb-0 text-2xl font-bold">
+          Success!
+        </h2>
+        <div class="px-8 py-6">
+          <p class="flex flex-row items-center">
+            <i class="fas fa-fw fa-2x fa-check mr-3"></i>
+            <span>You have successfully installed Nodewood!</span>
+          </p>
+          <ul class="list-disc w-4/5 mx-auto my-6">
+            <li>To create a new user, vist <a href="/app/signup" class="underline">/app/signup</a></li>
+            <li>To log in, vist <a href="/app/login" class="underline">/app/login</a></li>
+          </ul>
+
+          <p class="my-6">
+            To replace this page with your sales website, either replace the <code>www</code> folder
+            with your static site, or update your Nginx config to serve your site more dynamically.  For
+            more information, check <a href="https://nodewood.com/docs/master/sales-website/" class="underline">the
+            Sales Website section of the Nodewood documentation.</a>
+          </p>
+
+          <p class="text-center">
+            To view the rest of the documentation, vist <a href="https://nodewood.com/docs" class="underline">https://nodewood.com/docs</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

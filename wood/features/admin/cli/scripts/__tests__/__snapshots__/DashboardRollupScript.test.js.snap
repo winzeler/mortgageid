@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardRollupScript run should add users, teams, mrr to rollup entries 1`] = `
+Array [
+  Object {
+    "day": 2019-12-25T00:00:00.000Z,
+    "id": 1,
+    "mrr_amount": 1000,
+    "teams_count": 1,
+    "users_count": 1,
+  },
+  Object {
+    "day": 2019-12-26T00:00:00.000Z,
+    "id": 2,
+    "mrr_amount": 1000,
+    "teams_count": 1,
+    "users_count": 1,
+  },
+  Object {
+    "day": 2019-12-27T00:00:00.000Z,
+    "id": 3,
+    "mrr_amount": 1000,
+    "teams_count": 1,
+    "users_count": 2,
+  },
+  Object {
+    "day": 2019-12-28T00:00:00.000Z,
+    "id": 4,
+    "mrr_amount": 1000,
+    "teams_count": 1,
+    "users_count": 2,
+  },
+  Object {
+    "day": 2019-12-29T00:00:00.000Z,
+    "id": 5,
+    "mrr_amount": 1000,
+    "teams_count": 1,
+    "users_count": 2,
+  },
+  Object {
+    "day": 2019-12-30T00:00:00.000Z,
+    "id": 6,
+    "mrr_amount": 5167,
+    "teams_count": 2,
+    "users_count": 3,
+  },
+  Object {
+    "day": 2019-12-31T00:00:00.000Z,
+    "id": 7,
+    "mrr_amount": 5167,
+    "teams_count": 2,
+    "users_count": 3,
+  },
+]
+`;

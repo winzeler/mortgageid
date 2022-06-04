@@ -1,0 +1,13 @@
+FROM nginx:stable
+copy nginx-default.conf /etc/nginx/conf.d/default.conf
+RUN openssl req \
+    -new \
+    -nodes \
+    -x509 \
+    -subj "/C=CA/ST=Ontario/L=Toronto/O=IT/CN=nodewood" \
+    -days 3650 \
+    -keyout /etc/ssl/private/nodewood.key \
+    -out /etc/ssl/certs/nodewood.crt \
+    -extensions v3_ca
+
+EXPOSE 80

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceModel constructor() should properly display GBP 1`] = `"£99.99 GBP / month"`;
+
+exports[`PriceModel constructor() should properly display euros 1`] = `"€99.99 EUR / month"`;
+
+exports[`PriceModel constructor() should properly display monthly prices 1`] = `"$99.99 USD / month"`;
+
+exports[`PriceModel constructor() should properly display multi-interval prices 1`] = `"$99.99 USD every 3 months"`;

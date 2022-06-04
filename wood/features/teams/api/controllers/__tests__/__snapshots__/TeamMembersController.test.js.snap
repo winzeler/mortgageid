@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamMembersController DELETE /team/invites/:email should ensure user has permission to cancel invites 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Your role does not have the permissions to access this resource.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`TeamMembersController DELETE /team/invites/:email should error if invite is for another team 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "source": Object {
+        "parameter": "email",
+      },
+      "title": "Could not find invite with email 'exists@domain.com' to cancel.",
+    },
+  ],
+}
+`;
+
+exports[`TeamMembersController DELETE /team/invites/:email should error if no invite for that email adddress 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "source": Object {
+        "parameter": "email",
+      },
+      "title": "Could not find invite with email 'exists@domain.com' to cancel.",
+    },
+  ],
+}
+`;
+
+exports[`TeamMembersController DELETE /team/members/:id should ensure user has permission to update team members 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Your role does not have the permissions to access this resource.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`TeamMembersController DELETE /team/members/:id should ensure user is removing team member from own team 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_TEAM",
+      "title": "Could not modify team member.",
+    },
+  ],
+}
+`;
+
+exports[`TeamMembersController DELETE /team/members/:id should prevent user from removing self from team 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_TEAM_SELF",
+      "title": "Cannot remove self from own team.",
+    },
+  ],
+}
+`;
+
+exports[`TeamMembersController GET /team/members should display member limit based on subscription 1`] = `
+Object {
+  "data": Object {
+    "invites": Array [],
+    "limit": 2,
+    "members": Array [
+      Object {
+        "email": "user@email.com",
+        "id": "0ymXM",
+        "name": "name",
+        "role": "owner",
+      },
+    ],
+  },
+}
+`;
+
+exports[`TeamMembersController GET /team/members should list team members 1`] = `
+Object {
+  "data": Object {
+    "invites": Array [
+      Object {
+        "email": "email-a@domain.com",
+        "name": "name-a",
+        "role": "owner",
+      },
+      Object {
+        "email": "email-b@domain.com",
+        "name": "name-b",
+        "role": "member",
+      },
+    ],
+    "limit": null,
+    "members": Array [
+      Object {
+        "email": "user@email.com",
+        "id": "0ymXM",
+        "name": "name",
+        "role": "owner",
+      },
+      Object {
+        "email": "user2@email.com",
+        "id": "VyXm7",
+        "name": "name2",
+        "role": "member",
+      },
+      Object {
+        "email": "user3@email.com",
+        "id": "gzqvM",
+        "name": "name3",
+        "role": "member",
+      },
+    ],
+  },
+}
+`;
+
+exports[`TeamMembersController GET /team/members should not list users from other teams 1`] = `
+Object {
+  "data": Object {
+    "invites": Array [],
+    "limit": null,
+    "members": Array [
+      Object {
+        "email": "user@email.com",
+        "id": "0ymXM",
+        "name": "name",
+        "role": "owner",
+      },
+    ],
+  },
+}
+`;
+
+exports[`TeamMembersController POST /team/invites should ensure user has permission to invite team members 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Your role does not have the permissions to access this resource.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`TeamMembersController POST /team/invites should invite a team member 1`] = `
+Object {
+  "data": Object {
+    "invite": Object {
+      "email": "email@domain.com",
+      "name": "name",
+      "role": "owner",
+    },
+  },
+}
+`;
+
+exports[`TeamMembersController POST /team/invites should not let you invite past subscription member limit 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVITE_MAX_MEMBERS",
+      "title": "Your subscription only allows for 2 team members.",
+    },
+  ],
+}
+`;
+
+exports[`TeamMembersController POST /team/invites should only count members + invites from own team for member limit 1`] = `
+Object {
+  "data": Object {
+    "invite": Object {
+      "email": "exists@domain.com",
+      "name": "name",
+      "role": "member",
+    },
+  },
+}
+`;
+
+exports[`TeamMembersController POST /team/invites should re-send invite for duplicate team member, updating role & token 1`] = `
+Object {
+  "data": Object {
+    "invite": Object {
+      "email": "exists@domain.com",
+      "name": "name",
+      "role": "member",
+    },
+  },
+}
+`;
+
+exports[`TeamMembersController POST /team/invites should take invites into account when considering member limit 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVITE_MAX_MEMBERS",
+      "title": "Your subscription only allows for 2 team members.",
+    },
+  ],
+}
+`;
+
+exports[`TeamMembersController POST /team/invites should validate the request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_EMAIL",
+      "source": Object {
+        "parameter": "email",
+      },
+      "title": "You must enter a valid email address.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "name",
+      },
+      "title": "You must enter a name.",
+    },
+    Object {
+      "code": "ERROR_NOT_IN_LIST",
+      "meta": Object {
+        "list": Array [
+          "owner",
+          "member",
+        ],
+      },
+      "source": Object {
+        "parameter": "role",
+      },
+      "title": "You must select a valid role.",
+    },
+  ],
+}
+`;
+
+exports[`TeamMembersController PUT /team/members/:id should ensure user has permission to update team members 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Your role does not have the permissions to access this resource.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`TeamMembersController PUT /team/members/:id should ensure user is updating team member on own team 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_TEAM",
+      "title": "Could not modify team member.",
+    },
+  ],
+}
+`;
+
+exports[`TeamMembersController PUT /team/members/:id should prevent user from updating own role 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_TEAM_SELF",
+      "title": "Cannot modify own role.",
+    },
+  ],
+}
+`;
+
+exports[`TeamMembersController PUT /team/members/:id should validate the request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_IN_LIST",
+      "meta": Object {
+        "list": Array [
+          "owner",
+          "member",
+        ],
+      },
+      "source": Object {
+        "parameter": "role",
+      },
+      "title": "You must select a valid role.",
+    },
+  ],
+}
+`;

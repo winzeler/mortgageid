@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import './overrides.css';
+
+/**
+ * This injects any component classes registered by plugins.
+ */
+@import 'tailwindcss/components';
+
+/**
+ * Here you would add any of your custom component classes; stuff that you'd
+ * want loaded *before* the utilities so that the utilities could still
+ * override them.
+ */
+
+@import './components/buttons.css';
+@import './components/cards.css';
+@import './components/code.css';
+@import './components/dialogs.css';
+@import './components/tables.css';
+
+/**
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ */
+@import 'tailwindcss/utilities';
+
+/**
+ * Here you would add any custom utilities you need that don't come out of the
+ * box with Tailwind.
+ *
+ * Example:
+ * @import 'utilities/background-patterns';
+ */

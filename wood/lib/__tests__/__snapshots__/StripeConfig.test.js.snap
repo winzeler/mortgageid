@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StripeConfig products should get all products/prices 1`] = `
+Array [
+  Object {
+    "active": true,
+    "description": "For advanced companies.",
+    "id": "prod_advanced",
+    "metadata": Object {
+      "bullets": "[\\"500 credits/month.\\", \\"Access to advanced stuff.\\"]",
+      "order": "1",
+    },
+    "name": "Advanced",
+    "prices": Array [
+      Object {
+        "active": true,
+        "currency": "usd",
+        "id": "price_advanced_monthly",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "1",
+        },
+        "nickname": "Advanced Monthly",
+        "product": null,
+        "unit_amount": 5000,
+      },
+      Object {
+        "active": true,
+        "currency": "cad",
+        "id": "price_advanced_monthly_canadian",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "1",
+        },
+        "nickname": "Advanced Monthly Canadian",
+        "product": null,
+        "unit_amount": 6500,
+      },
+      Object {
+        "active": true,
+        "currency": "usd",
+        "id": "price_advanced_annual",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "2",
+        },
+        "nickname": "Advanced Annual",
+        "product": null,
+        "unit_amount": 50000,
+      },
+      Object {
+        "active": true,
+        "currency": "cad",
+        "id": "price_advanced_annual_canadian",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "2",
+        },
+        "nickname": "Advanced Annual Canadian",
+        "product": null,
+        "unit_amount": 65000,
+      },
+    ],
+  },
+  Object {
+    "active": true,
+    "description": "For simple companies.",
+    "id": "prod_simple",
+    "metadata": Object {
+      "bullets": "[\\"100 credits/month.\\", \\"Access to simple stuff.\\"]",
+      "order": "3",
+    },
+    "name": "Simple",
+    "prices": Array [
+      Object {
+        "active": true,
+        "currency": "usd",
+        "id": "price_simple_monthly",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "1",
+        },
+        "nickname": "Simple Monthly",
+        "product": null,
+        "unit_amount": 1000,
+      },
+      Object {
+        "active": true,
+        "currency": "usd",
+        "id": "price_simple_annual",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "2",
+        },
+        "nickname": "Simple Annual",
+        "product": null,
+        "unit_amount": 10000,
+      },
+    ],
+  },
+  Object {
+    "active": true,
+    "description": "For Canadian companies.",
+    "id": "prod_canadian",
+    "metadata": Object {
+      "bullets": "[\\"100 credits/month.\\", \\"Access to Canadian stuff.\\"]",
+      "order": "3",
+    },
+    "name": "Canadian",
+    "prices": Array [
+      Object {
+        "active": true,
+        "currency": "cad",
+        "id": "price_canadian_monthly",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "1",
+        },
+        "nickname": "Canadian Monthly",
+        "product": null,
+        "unit_amount": 1500,
+      },
+      Object {
+        "active": true,
+        "currency": "cad",
+        "id": "price_canadian_annual",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "2",
+        },
+        "nickname": "Canadian Annual",
+        "product": null,
+        "unit_amount": 15000,
+      },
+    ],
+  },
+  Object {
+    "active": true,
+    "description": "Limits members.",
+    "id": "prod_memberlimit",
+    "metadata": Object {
+      "bullets": "[\\"100 credits/month.\\", \\"Access to simple stuff.\\"]",
+      "max_members": 2,
+      "order": "3",
+    },
+    "name": "Member limit",
+    "prices": Array [
+      Object {
+        "active": true,
+        "currency": "usd",
+        "id": "price_memberlimit_monthly",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "1",
+        },
+        "nickname": "Memberlimit Monthly",
+        "product": null,
+        "unit_amount": 1000,
+      },
+    ],
+  },
+]
+`;
+
+exports[`StripeConfig products should only get CAD products/prices 1`] = `
+Array [
+  Object {
+    "active": true,
+    "description": "For advanced companies.",
+    "id": "prod_advanced",
+    "metadata": Object {
+      "bullets": "[\\"500 credits/month.\\", \\"Access to advanced stuff.\\"]",
+      "order": "1",
+    },
+    "name": "Advanced",
+    "prices": Array [
+      Object {
+        "active": true,
+        "currency": "cad",
+        "id": "price_advanced_monthly_canadian",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "1",
+        },
+        "nickname": "Advanced Monthly Canadian",
+        "product": null,
+        "unit_amount": 6500,
+      },
+      Object {
+        "active": true,
+        "currency": "cad",
+        "id": "price_advanced_annual_canadian",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "2",
+        },
+        "nickname": "Advanced Annual Canadian",
+        "product": null,
+        "unit_amount": 65000,
+      },
+    ],
+  },
+  Object {
+    "active": true,
+    "description": "For Canadian companies.",
+    "id": "prod_canadian",
+    "metadata": Object {
+      "bullets": "[\\"100 credits/month.\\", \\"Access to Canadian stuff.\\"]",
+      "order": "3",
+    },
+    "name": "Canadian",
+    "prices": Array [
+      Object {
+        "active": true,
+        "currency": "cad",
+        "id": "price_canadian_monthly",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "1",
+        },
+        "nickname": "Canadian Monthly",
+        "product": null,
+        "unit_amount": 1500,
+      },
+      Object {
+        "active": true,
+        "currency": "cad",
+        "id": "price_canadian_annual",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "2",
+        },
+        "nickname": "Canadian Annual",
+        "product": null,
+        "unit_amount": 15000,
+      },
+    ],
+  },
+]
+`;
+
+exports[`StripeConfig products should only get USD products/prices 1`] = `
+Array [
+  Object {
+    "active": true,
+    "description": "For advanced companies.",
+    "id": "prod_advanced",
+    "metadata": Object {
+      "bullets": "[\\"500 credits/month.\\", \\"Access to advanced stuff.\\"]",
+      "order": "1",
+    },
+    "name": "Advanced",
+    "prices": Array [
+      Object {
+        "active": true,
+        "currency": "usd",
+        "id": "price_advanced_monthly",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "1",
+        },
+        "nickname": "Advanced Monthly",
+        "product": null,
+        "unit_amount": 5000,
+      },
+      Object {
+        "active": true,
+        "currency": "usd",
+        "id": "price_advanced_annual",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "2",
+        },
+        "nickname": "Advanced Annual",
+        "product": null,
+        "unit_amount": 50000,
+      },
+    ],
+  },
+  Object {
+    "active": true,
+    "description": "For simple companies.",
+    "id": "prod_simple",
+    "metadata": Object {
+      "bullets": "[\\"100 credits/month.\\", \\"Access to simple stuff.\\"]",
+      "order": "3",
+    },
+    "name": "Simple",
+    "prices": Array [
+      Object {
+        "active": true,
+        "currency": "usd",
+        "id": "price_simple_monthly",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "1",
+        },
+        "nickname": "Simple Monthly",
+        "product": null,
+        "unit_amount": 1000,
+      },
+      Object {
+        "active": true,
+        "currency": "usd",
+        "id": "price_simple_annual",
+        "interval": "year",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "2",
+        },
+        "nickname": "Simple Annual",
+        "product": null,
+        "unit_amount": 10000,
+      },
+    ],
+  },
+  Object {
+    "active": true,
+    "description": "Limits members.",
+    "id": "prod_memberlimit",
+    "metadata": Object {
+      "bullets": "[\\"100 credits/month.\\", \\"Access to simple stuff.\\"]",
+      "max_members": 2,
+      "order": "3",
+    },
+    "name": "Member limit",
+    "prices": Array [
+      Object {
+        "active": true,
+        "currency": "usd",
+        "id": "price_memberlimit_monthly",
+        "interval": "month",
+        "interval_count": 1,
+        "metadata": Object {
+          "order": "1",
+        },
+        "nickname": "Memberlimit Monthly",
+        "product": null,
+        "unit_amount": 1000,
+      },
+    ],
+  },
+]
+`;
