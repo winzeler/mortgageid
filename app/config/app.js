@@ -31,8 +31,8 @@ module.exports = {
       'samples',
       'users',
       'admin',
-      'subscriptions',
-      'teams',
+      //'subscriptions',
+      //'teams',
     ],
   },
 };

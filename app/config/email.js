@@ -10,4 +10,14 @@ module.exports = {
   ...woodConfig,
 
   // Overwrite default configs here
+  /**
+   * @type {String} The address used to send transactional emails from.
+   */
+   fromEmail: 'support@mortgageid.com',
+
+   /**
+    * @type {String} The address to send support requests to.
+    */
+   supportEmail: 'support@mortgageid.com',
+ 
 };
