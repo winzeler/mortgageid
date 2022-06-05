@@ -9,7 +9,7 @@ Decentralized Identity for mortgage credit applications with Verida (overlayed o
 
 - Node 14.17.1
 - yarn 1.22.18
-- es-list
+- es-lint
 - Docker Desktop (nginx, postgres, express, app/api)
 
 - .env REQUIRED! @winzeler on telegram or leave a GH Issue to request
@@ -80,7 +80,8 @@ Solo hacking was faster to get going but when I faced issues, there was no colla
 
 Integrate with a legacy credit provider.  ...possibly Equifax, where we've got access to a sandbox API account.  Store JSON credit reports in Verida.  Build an easy to use credit wallet mobile app in React Native.   Once we can integrate with live credit, we need to pull in other parts of the loan application.  Next, build out a dashboard or lender partners to access user's credit and application data securely and anonimized. 
 
-
+![Former Participant in Equifax Accelerate 2021](https://github.com/winzeler/mortgageid/raw/main/screenshots/20220605_090139.jpg)
+__Former Participant in Equifax Accelerate 2021__
 
 [Demo Link](https://mortgageid.com) __coming soon__
 
