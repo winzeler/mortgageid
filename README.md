@@ -4,13 +4,13 @@ Decentralized Identity for mortgage credit applications with Verida (overlayed o
 
 ### Requirements
 
-Node 14.17.1
-yarn 1.22.18
-es-list
-Docker Desktop (nginx, postgres, express, app/api)
+- Node 14.17.1
+- yarn 1.22.18
+- es-list
+- Docker Desktop (nginx, postgres, express, app/api)
 
-./setup-dev.sh (installs cmd line scripts for docker startup)
-./run-dev.sh 
+- setup-dev.sh (installs cmd line scripts for docker startup)
+- run-dev.sh 
 
 # MortgageId
 
