@@ -1,4 +1,4 @@
-// import SSOLogin from "./dialogs/SSOLogin";
+const { SSOLogin } = require('./dialogs/SSOLogin');
 
 const { InitUi } = require('#lib/InitUi');
 
@@ -28,11 +28,11 @@ class VconnectsInitApi extends InitUi {
   initRoutes() {
     const routes = [];
 
-    // routes.push({
-    //   path: '/connect',
-    //   name: 'Connect',
-    //   component: SSOLogin,
-    // });
+    routes.push({
+      path: '/connect',
+      name: 'Connect',
+      component: SSOLogin,
+    });
 
     routes.push({
       path: '/vconnects',

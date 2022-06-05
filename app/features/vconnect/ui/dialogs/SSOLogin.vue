@@ -8,7 +8,7 @@
   />
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue';
 import { mapMutations } from 'vuex';
 
@@ -31,12 +31,12 @@ export default defineComponent({
   },
   methods: {
     ...mapMutations(['setContext']),
-    onConnected(context: any) {
+    onConnected(context) {
       this.setContext(context);
       this.$router.push({ name: 'Home' });
     },
 
-    onError(error: Error) {
+    onError(error) {
       console.log('Login Error', error);
     },
   },

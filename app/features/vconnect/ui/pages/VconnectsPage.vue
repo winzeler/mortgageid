@@ -27,6 +27,7 @@
     </div>
 
     <NewVconnectDialog ref="newVconnectDialog" />
+    <LoginVconnectDialog ref="loginVconnectDialog" />
     <EditVconnectDialog ref="editVconnectDialog" />
     <DeleteVconnectDialog ref="deleteVconnectDialog" />
   </div>
@@ -40,6 +41,7 @@ import { loadable } from 'vue-is-loading';
 import DataTable from '#ui/components/DataTable';
 import { VCONNECT_MODEL_FIELDS } from '#features/vconnect/lib/models/VconnectModel';
 import NewVconnectDialog from '#features/vconnect/ui/dialogs/NewVconnectDialog';
+// import LoginVconnectDialog from '#features/vconnect/ui/dialogs/LoginVconnectDialog';
 import EditVconnectDialog from '#features/vconnect/ui/dialogs/EditVconnectDialog';
 import DeleteVconnectDialog from '#features/vconnect/ui/dialogs/DeleteVconnectDialog';
 
@@ -60,6 +62,11 @@ const getList = loadable(
 
 // Row actions
 
+const loginVconnectDialog = ref(null);
+const loginSSODialog = (team) => {
+  loginVconnectDialog.value.openDialog(team);
+};
+
 const editVconnectDialog = ref(null);
 const openEditDialog = (team) => {
   editVconnectDialog.value.openDialog(team);
@@ -71,7 +78,8 @@ const openDeleteDialog = (team) => {
 };
 
 const vconnectActions = [
+  { name: 'Sign On', fn: loginSSODialog },
   { name: 'Edit Wallet Name', fn: openEditDialog },
-  { name: 'Delete Verida Connection', fn: openDeleteDialog },
+  { name: 'Delete Connection', fn: openDeleteDialog },
 ];
 </script>

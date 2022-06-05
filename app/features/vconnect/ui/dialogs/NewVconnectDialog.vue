@@ -4,7 +4,7 @@
     :style="{ width: '50vw', 'max-width': '500px' }"
     :breakpoints="{'640px': '100vw'}"
     :closable="false"
-    header="New Vconnect"
+    header="New Wallet"
   >
     <form
       class="dialog-body"
@@ -110,11 +110,11 @@ const submit = async () => {
   try {
     await createVconnect(deepUnref(form));
 
-    successToast('Verida Wallet Connect saved.');
+    successToast('Verida Wallet Connection saved.');
     closeDialog();
   }
   catch (error) {
-    errorToast(getErrorMessage(error, 'Could not update Verdia Wallet Connect.'));
+    errorToast(getErrorMessage(error, 'Could not update Verdia Wallet Connection.'));
   }
 };
 </script>
