@@ -1,0 +1,33 @@
+DB_HOST=postgres
+DB_PORT=5432
+DB_DB=nodewood
+DB_USER=nodewood
+DB_PASS=<password>
+
+LOG_LEVEL=info
+
+JWT_SECRET=<jwtSecret>
+JWT_HASHID_SALT=<jwtHashidSalt>
+JWT_GLOBAL_SERIES=1
+
+PASSWORD_SALT_ROUNDS=10
+
+GENERAL_HASHID_SALT=<generalHashidSalt>
+
+SOCKETLABS_SMTP=smtp.socketlabs.com
+SOCKETLABS_USER=<serverusername>
+SOCKETLABS_PASSWORD=<password>
+
+VUE_APP_CONTEXT_NAME=MortgageId App
+CONTEXT_NAME=MortgageId App
+VUE_APP_LOGIN_TEXT=Welcome to MortgageID
+
+VUE_APP_LOGO=https://assets.verida.io/verida_login_request_logo_170x170.png
+# VERIDA_TESTNET_DEFAULT_SERVER=https://db.testnet.verida.io:5002/
+VERIDA_TESTNET_DEFAULT_SERVER='https://db-use1.testnet.verida.tech/'
+
+# SKIP MOBILE APP - TESTING ONLY
+MNEMONIC="<seed phrase>"
+
+# Uncomment the following line to log database queries
+# DB_LOGGING=true

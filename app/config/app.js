@@ -23,7 +23,8 @@ module.exports = {
    */
   features: {
     app: [
-      'vconnect',
+      // 'vconnect',
+      'credit',
     ],
 
     /**

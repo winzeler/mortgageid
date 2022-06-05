@@ -28,6 +28,10 @@ const uiConfig = {
     path: '/',
     icon: 'fa-arrow-right',
   }, {
+    name: 'Credit Scores',
+    path: '/credits',
+    icon: 'fa-tasks',
+  }, {
     name: 'About',
     path: '/about',
     icon: 'fa-question-circle',
