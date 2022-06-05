@@ -2,6 +2,9 @@
 Decentralized Identity for mortgage credit applications with Verida (overlayed on NEAR?), for GraphHack 2022
 
 
+
+![MortgageID.com POC](https://github.com/winzeler/mortgageid/raw/main/screenshots/CleanShot%202022-06-05%20at%2005.42.41%402x.png)
+
 ### Requirements
 
 - Node 14.17.1
@@ -49,11 +52,15 @@ I ended up not using the Verida Mobile wallet beyond initial attempts to integra
 
 [https://github.com/winzeler/mortgageid](https://github.com/winzeler/mortgageid)
 
+![Verida SDK](https://github.com/winzeler/mortgageid/raw/main/screenshots/CleanShot%202022-06-05%20at%2007.46.08%402x.png)
+
 ## Challenges I ran into
 
 In my FT job with HaHa.me, a crypto portfolio mobile app, I'm entirely on the backend/database for that Reactive Native environment. For MortgageID, I had to decide how to start up an app to test these APIs.  Command line?  Web app?  I had no prior experience with VueJs, so trying to integrate the Verida web components in Vue3 into my demo was the biggest delay.
 
 There was an issue in the Verida docs around the __didServerUrl__ property that required me to pull down the source code to find out what it was failing.  [https://developers.verida.io/docs/client-sdk/authentication](https://developers.verida.io/docs/client-sdk/authentication)
+
+![didServerUrl](https://github.com/winzeler/mortgageid/raw/main/screenshots/CleanShot%202022-06-05%20at%2007.45.32%402x.png)
 
 ## Accomplishments that we're proud of
 
@@ -76,6 +83,7 @@ Integrate with a legacy credit provider.  ...possibly Equifax, where we've got a
 
 [Verida Explorer Link](https://verida.network/did/did:vda:0xF39eA91b028cC1D81bDf1c924C12313D571Ef2Ef)
 
+![verida.network explorer](https://github.com/winzeler/mortgageid/raw/main/screenshots/CleanShot%202022-06-05%20at%2007.34.31.gif)
 
 
 ## Built with
