@@ -1,0 +1,88 @@
+{
+  "consumers": {
+    "name": [
+      {
+        "identifier": "current",
+        "firstName": "KENYETTA",
+        "lastName": "NNWXYTKH",
+        "middleName": null,
+        "suffix": null
+      }
+    ],
+    "socialNum": [
+      {
+        "identifier": "current",
+        "number": 666697180
+      }
+    ],
+    "addresses": [
+      {
+        "identifier": "current",
+        "houseNumber": 7947,
+        "streetName": "PJEDGKYHDJ",
+        "streetType": "ST",
+        "apartmentNumber": null,
+        "city": "HOBART",
+        "state": "IN",
+        "zip": 46342
+      }
+    ]
+  },
+  "customerReference-identifier": "2C800002-DOR7",
+  "customerConfiguration": {
+    "equifaxUSConsumerCreditReport": {
+      "pdfComboIndicator": "Y",
+      "memberNumber": "999AA00884",
+      "securityCode": "@U2",
+      "rawReportRequired": false,
+      "codeDescriptionRequired": true,
+      "protocolIndicator": 2,
+      "customerCode": 1717,
+      "fixedInquiryFormat": 72,
+      "outputFormat": "T2",
+      "multipleReportIndicator": "F",
+      "productCodes": null,
+      "fileSelectionLevel": "B",
+      "monthsForInquiry": null,
+      "plainLanguage": "P",
+      "models": [
+        {
+          "identifier": 1258
+        },
+        {
+          "identifier": 1260
+        },
+        {
+          "identifier": 1262
+        },
+        {
+          "identifier": "02583"
+        },
+        {
+          "identifier": "02978"
+        },
+        {
+          "identifier": 2659
+        },
+        {
+          "identifier": "02916"
+        }
+      ],
+      "riskModelCodeOnly": null,
+      "ECOAInquiryType": "Individual",
+      "optionalFeatureCode": null
+    },
+    "equifaxUSConsumerTwnRequest": {
+      "userId": "twnUser@1234",
+      "userPassword": "pass123",
+      "permissiblePurposeCode": "PPASSESS",
+      "templateName": "Full VOI"
+    },
+    "equifaxUSConsumerDataxInquiryRequest": {
+      "authentication": {
+        "licensekey": "licenseKey123",
+        "password": "passwd123"
+      }
+    }
+  }
+}
