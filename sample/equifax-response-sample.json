@@ -1,0 +1,4482 @@
+{
+  "status": "completed",
+  "consumers": {
+    "equifaxUSConsumerCreditReport": [
+      {
+        "identifier": "Individual Report 1",
+        "customerReferenceNumber": "2C800002-DOR7",
+        "customerNumber": "999AA00884",
+        "consumerReferralCode": 347,
+        "multipleReportIndicator": "F",
+        "ECOAInquiryType": "I",
+        "hitCode": {
+          "code": 6,
+          "description": "Hit and Automated Consumer Narrative"
+        },
+        "fileSinceDate": "02082003",
+        "lastActivityDate": 1606673,
+        "reportDate": "08242021",
+        "subjectName": {
+          "firstName": "KENYETTA",
+          "lastName": "NNWXYTKH",
+          "middleName": "ALEXIS"
+        },
+        "subjectSocialNum": 666698774,
+        "birthDate": "09071984",
+        "nameMatchFlags": {
+          "firstNameMatchFlag": "Y",
+          "lastNameMatchFlag": "Y",
+          "middleNameMatchFlag": "Y"
+        },
+        "addressDiscrepancyIndicator": "N",
+        "fraudSocialNumAlertCode": [
+          {
+            "code": "N",
+            "description": "No Alert available"
+          }
+        ],
+        "fraudIDScanAlertCodes": [
+          {
+            "code": 8,
+            "description": "UNABLE TO PERFORM TELEPHONE VALIDATION DUE TO INSUFFICIENT TELEPHONE INPUT"
+          },
+          {
+            "code": "L",
+            "description": "FRAUD VICTIM ALERT PRESENT IN DATABASE"
+          }
+        ],
+        "fraudVictimIndicator": {
+          "code": "X",
+          "description": "Fraud Victim Extended Alert"
+        },
+        "addresses": [
+          {
+            "addressType": "current",
+            "houseNumber": 7947,
+            "streetName": "PJEDGKYHDJ",
+            "streetType": "ST",
+            "cityName": "HOBART",
+            "stateAbbreviation": "IN",
+            "zipCode": 46342,
+            "sourceOfAddress": null,
+            "code": "T",
+            "description": "AUT**",
+            "dateFirstReported": 1311761,
+            "dateLastReported": 1614865,
+            "addressLine1": "7947 PJEDGKYHDJ ST"
+          },
+          {
+            "addressType": "former",
+            "houseNumber": 1395,
+            "streetName": "LJEHFW",
+            "streetType": "LN",
+            "cityName": "HOBART",
+            "stateAbbreviation": "IN",
+            "zipCode": 46342,
+            "rentOwnBuy": "R",
+            "sourceOfAddress": {
+              "code": "T",
+              "description": "AUT**"
+            },
+            "dateFirstReported": 525328,
+            "dateLastReported": 1610769,
+            "addressLine1": "1395 LJEHFW LN"
+          },
+          {
+            "addressType": "additional",
+            "houseNumber": 7157,
+            "streetName": "L 92WA",
+            "streetType": "PL",
+            "cityName": "HOBART",
+            "stateAbbreviation": "IN",
+            "zipCode": 46342,
+            "sourceOfAddress": {
+              "code": "T",
+              "description": "AUT**"
+            },
+            "dateFirstReported": 12002019,
+            "dateLastReported": 1627153,
+            "addressLine1": "7157 L 92WA PL"
+          },
+          {
+            "addressType": "additional",
+            "houseNumber": 717,
+            "streetName": "CDPWKY",
+            "streetType": "DR APT 234",
+            "cityName": "HOBART",
+            "stateAbbreviation": "IN",
+            "zipCode": 46342,
+            "sourceOfAddress": {
+              "code": "T",
+              "description": "AUT**"
+            },
+            "dateFirstReported": 11002016,
+            "dateLastReported": 1655824,
+            "addressLine1": "717 CDPWKY DR APT 234"
+          },
+          {
+            "addressType": "additional",
+            "houseNumber": 9937,
+            "streetName": "T LJEWXY",
+            "streetType": "AVE",
+            "cityName": "HAMMOND",
+            "stateAbbreviation": "IN",
+            "zipCode": 46320,
+            "sourceOfAddress": {
+              "code": "C",
+              "description": "EQUIFAX"
+            },
+            "dateFirstReported": 1049614,
+            "dateLastReported": 10262019,
+            "addressLine1": "9937 T LJEWXY AVE"
+          },
+          {
+            "addressType": "additional",
+            "houseNumber": 4116,
+            "streetName": "UJYGDXER",
+            "streetType": "AV",
+            "cityName": "HAMMOND",
+            "stateAbbreviation": "IN",
+            "zipCode": 46324,
+            "sourceOfAddress": {
+              "code": "C",
+              "description": "EQUIFAX"
+            },
+            "dateFirstReported": 1049614,
+            "dateLastReported": 10262019,
+            "addressLine1": "4116 UJYGDXER AV"
+          },
+          {
+            "addressType": "additional",
+            "houseNumber": 77311,
+            "streetName": "GKYXTW",
+            "streetType": "AVE APT 3",
+            "cityName": "CHICAGO",
+            "stateAbbreviation": "IL",
+            "zipCode": 60628,
+            "sourceOfAddress": {
+              "code": "C",
+              "description": "EQUIFAX"
+            },
+            "dateFirstReported": 11002014,
+            "dateLastReported": 10262019,
+            "addressLine1": "77311 GKYXTW AVE APT 3"
+          }
+        ],
+        "employments": [
+          {
+            "identifier": "current",
+            "employer": "PADPJUK PKHCXHWDK"
+          },
+          {
+            "identifier": "former",
+            "employer": "FHDTOT"
+          }
+        ],
+        "bankruptcies": [
+          {
+            "customerNumber": "639VF00012",
+            "type": "I",
+            "filer": "I",
+            "industryCode": "VF",
+            "currentIntentOrDispositionCode": {
+              "code": "C",
+              "description": "CH-13 FILED"
+            },
+            "dateFiled": 10092020,
+            "dateReported": 10102020
+          },
+          {
+            "customerNumber": "639VF00012",
+            "type": "I",
+            "filer": "I",
+            "industryCode": "VF",
+            "currentIntentOrDispositionCode": {
+              "code": "K",
+              "description": "DISMSD/CLSD CH13"
+            },
+            "dispositionDate": 1119,
+            "dateFiled": "01042018",
+            "currentDispositionDate": 11042019,
+            "priorIntentOrDispositionCode": {
+              "code": "C",
+              "description": "CH-13 FILED"
+            },
+            "dateReported": 11082019
+          },
+          {
+            "customerNumber": "155VF00015",
+            "type": "I",
+            "filer": "I",
+            "industryCode": "VF",
+            "currentIntentOrDispositionCode": {
+              "code": "A",
+              "description": "DISCHARGED CH-7"
+            },
+            "dispositionDate": 267,
+            "dateFiled": 12282012,
+            "currentDispositionDate": 1127435,
+            "priorIntentOrDispositionCode": {
+              "code": "V",
+              "description": "VOLUNTARY CH-7"
+            },
+            "dateReported": "05092013"
+          }
+        ],
+        "collections": [
+          {
+            "industryCode": "YC",
+            "customerNumber": "980YC00000",
+            "statusCode": {
+              "code": "D",
+              "description": "UNPAID"
+            },
+            "narrativeCodes": {
+              "code": "GS",
+              "description": "MEDICAL"
+            },
+            "rawNarrativeCodes": [
+              "GS"
+            ],
+            "indicator": "*",
+            "dateReported": 1373201,
+            "dateAssigned": "03182021",
+            "originalAmount": 150,
+            "statusDate": 1373201,
+            "balance": 150,
+            "dateOfFirstDelinquency": 10242020,
+            "accountDesignatorCode": {
+              "code": "I",
+              "description": "Individual Account"
+            },
+            "creditorClassificationCode": {
+              "code": 2,
+              "description": "MEDICAL/HEALTH CARE"
+            }
+          }
+        ],
+        "alertContacts": [
+          {
+            "alertType": {
+              "code": "E",
+              "description": "Extended Fraud"
+            },
+            "dateReported": 1582094,
+            "effectiveDate": 1119246,
+            "telephoneNumbers": [
+              {
+                "telephoneNumberType": {
+                  "code": "D",
+                  "description": "Daytime"
+                },
+                "telephoneNumber": 3125551212
+              },
+              {
+                "telephoneNumberType": {
+                  "code": "E",
+                  "description": "Evening"
+                },
+                "telephoneNumber": 7085551212
+              }
+            ]
+          }
+        ],
+        "trades": [
+          {
+            "customerNumber": "168AN13640",
+            "automatedUpdateIndicator": "*",
+            "monthsReviewed": 17,
+            "accountDesignator": {
+              "code": "I",
+              "description": "Individual Account"
+            },
+            "accountNumber": 2000,
+            "customerName": "MCS/GATEWAY FINANCIA",
+            "dateReported": "06282021",
+            "dateOpened": 1651727,
+            "balance": 0,
+            "pastDueAmount": 0,
+            "rate": {
+              "code": 7,
+              "description": "Included in Chapter 13"
+            },
+            "narrativeCodes": [
+              {
+                "code": "DO",
+                "description": "BANKRUPTCY CHAPTER 13"
+              },
+              {
+                "code": "KD",
+                "description": "BANKRUPTCY COMPLETED"
+              }
+            ],
+            "rawNarrativeCodes": [
+              "DO",
+              "KD"
+            ],
+            "accountTypeCode": {
+              "code": 0,
+              "description": "Auto"
+            },
+            "dateMajorDelinquencyFirstReported": 1573903,
+            "termsFrequencyCode": {
+              "code": "P",
+              "description": "Single Payment Loan"
+            },
+            "purchasedFromOrSoldCreditorIndicator": {
+              "code": "O",
+              "description": "Original Creditor"
+            },
+            "purchasedFromOrSoldCreditorName": "RW VILLA PARK",
+            "paymentHistory1to24": [
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": 9,
+                "description": "Charge-off"
+              },
+              {
+                "code": 6,
+                "description": "Collection account (Enhanced Trade Only)"
+              },
+              {
+                "code": 6,
+                "description": "Collection account (Enhanced Trade Only)"
+              },
+              {
+                "code": "/"
+              },
+              {
+                "code": 6,
+                "description": "Collection account (Enhanced Trade Only)"
+              },
+              {
+                "code": 6,
+                "description": "Collection account (Enhanced Trade Only)"
+              },
+              {
+                "code": 6,
+                "description": "Collection account (Enhanced Trade Only)"
+              },
+              {
+                "code": 9,
+                "description": "Charge-off"
+              },
+              {
+                "code": 9,
+                "description": "Charge-off"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              }
+            ],
+            "lastActivityDate": 25615
+          },
+          {
+            "customerNumber": "850BB01498",
+            "automatedUpdateIndicator": "*",
+            "monthsReviewed": 16,
+            "accountDesignator": {
+              "code": "I",
+              "description": "Individual Account"
+            },
+            "accountNumber": 805754413,
+            "thirtyDayCounter": 1,
+            "sixtyDayCounter": 1,
+            "ninetyDayCounter": 1,
+            "previousHighRate1": 4,
+            "previousHighDate1": "092020",
+            "previousHighRate2": 3,
+            "previousHighDate2": "082020",
+            "previousHighRate3": 2,
+            "previousHighDate3": 29712,
+            "24MonthPaymentHistory": [
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": 4,
+                "description": "Not more than four payments past due"
+              },
+              {
+                "code": 3,
+                "description": "Not more than three payments past due"
+              },
+              {
+                "code": 2,
+                "description": "Not more than two payments past due"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "/"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              }
+            ],
+            "customerName": "CAPITAL ONE BANK USA",
+            "dateReported": 1590289,
+            "dateOpened": 603152,
+            "rate": {
+              "code": 7,
+              "description": "Included in Chapter 13"
+            },
+            "narrativeCodes": [
+              {
+                "code": "DO",
+                "description": "BANKRUPTCY CHAPTER 13"
+              },
+              {
+                "code": "CW",
+                "description": "ACCOUNT CLOSED BY CREDIT GRANTOR"
+              },
+              {
+                "code": "KB",
+                "description": "BANKRUPTCY PETITION"
+              }
+            ],
+            "rawNarrativeCodes": [
+              "DO",
+              "CW",
+              "KB"
+            ],
+            "accountTypeCode": {
+              "code": 18,
+              "description": "Credit Card"
+            },
+            "lastPaymentDate": 1049616,
+            "dateMajorDelinquencyFirstReported": 1836048,
+            "termsFrequencyCode": null,
+            "code": "M",
+            "description": "Monthly (due every month)",
+            "activityDesignatorCode": {
+              "code": "C",
+              "description": "Closed"
+            },
+            "paymentHistory1to24": [
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": 4,
+                "description": "Not more than four payments past due"
+              },
+              {
+                "code": 3,
+                "description": "Not more than three payments past due"
+              },
+              {
+                "code": 2,
+                "description": "Not more than two payments past due"
+              },
+              {
+                "code": "/"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              }
+            ],
+            "lastActivityDate": 29712
+          },
+          {
+            "customerNumber": "654FA11802",
+            "automatedUpdateIndicator": "*",
+            "monthsReviewed": "08",
+            "accountDesignator": null,
+            "code": "I",
+            "description": "Individual Account",
+            "accountNumber": 91000,
+            "customerName": "CREDIT ACCEPTANCE CO",
+            "dateReported": "09142020",
+            "dateOpened": 12132019,
+            "highCredit": 12022,
+            "portfolioTypeCode": {
+              "code": "I",
+              "description": "Installment (fixed number of payments)"
+            },
+            "rate": {
+              "code": 1,
+              "description": "Pays account as agreed"
+            },
+            "narrativeCodes": {
+              "code": "AO",
+              "description": "AUTO"
+            },
+            "rawNarrativeCodes": "AO",
+            "accountTypeCode": {
+              "code": 0,
+              "description": "Auto"
+            },
+            "lastPaymentDate": "08002020",
+            "actualPaymentAmount": 304,
+            "scheduledPaymentAmount": 308,
+            "termsFrequencyCode": {
+              "code": "M",
+              "description": "Monthly (due every month)"
+            },
+            "termsDurationCode": {
+              "code": "39M",
+              "description": "Months"
+            },
+            "paymentHistory1to24": [
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": 1,
+                "description": "Pays account as agreed"
+              },
+              {
+                "code": "*",
+                "description": "Rate/Status was not available for that month"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": "/"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              },
+              {
+                "code": null,
+                "description": "Not populated based on the Date Open(payment history will only be populated for each of the months that the account has been open)"
+              }
+            ],
+            "lastActivityDate": "092020"
+          },
+          {
+            "customerNumber": "168AN13640",
+            "automatedUpdateIndicator": "*",
+            "monthsReviewed": 30,
+            "accountDesignator": {
+              "code": "I",
+              "description": "Individual Account"
+            },
+            "accountNumber": 2000,
+            "customerName": "MCS/GATEWAY FINANCIA",
+            "dateReported": 263184,
+            "dateOpened": 1573903,
+            "rate": {
+              "code": 7,
+              "description": "Included in Chapter 13"
+            },
+            "narrativeCodes": [
+              {
+                "code": "DO",
+                "description": "BANKRUPTCY CHAPTER 13"
+              },
+              {
+                "code": "KB",
+                "description": "BANKRUPTCY PETITION"
+              }
+            ],
+            "rawNarrativeCodes": [
+              "DO",
+              "KB"
+            ],
+            "accountTypeCode": {
+              "code": 0,
+              "description": "Auto"
+            },
+            "lastPaymentDate": 12002019,
+            "dateMajorDelinquencyFirstReported": 12002017,
+            "termsFrequencyCode": {
+              "code": "E",
+              "description": "Semi-monthly (due twice a month)"
+            },
+            "lastActivityDate": 122017
+          }
+        ],
+        "inquiries": [
+          {
+            "type": "inquiry",
+            "industryCode": "UT",
+            "inquiryDate": 1606673,
+            "customerNumber": "910UT41767",
+            "customerName": "COMCAST"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "UT",
+            "inquiryDate": 824337,
+            "customerNumber": "910UT41767",
+            "customerName": "COMCAST"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "BB",
+            "inquiryDate": 541713,
+            "customerNumber": "164BB03100",
+            "customerName": "CAPITALONE"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "AN",
+            "inquiryDate": 12042020,
+            "customerNumber": "682AN13140",
+            "customerName": "NAPLETNRVR"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "UZ",
+            "inquiryDate": 1053712,
+            "customerNumber": "990UZ84682",
+            "customerName": "DIRECTV"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "BB",
+            "inquiryDate": 537616,
+            "customerNumber": "682BB11893",
+            "customerName": "1 PREMIER"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "BB",
+            "inquiryDate": 533520,
+            "customerNumber": "484BB04591",
+            "customerName": "CAP ONE"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "CG",
+            "inquiryDate": 529424,
+            "customerNumber": "667CG30736",
+            "customerName": "CB/VLCTYFR"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "UT",
+            "inquiryDate": 328720,
+            "customerNumber": "910UT46227",
+            "customerName": "ATT SRVS"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "AZ",
+            "inquiryDate": 12112019,
+            "customerNumber": "614AZ06655",
+            "customerName": "H.A.C,AUTO"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "AN",
+            "inquiryDate": 12072019,
+            "customerNumber": "682AN13140",
+            "customerName": "NAPLETNRVR"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "FA",
+            "inquiryDate": 12072019,
+            "customerNumber": "484FA00658",
+            "customerName": "CAP ONE AF"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "FP",
+            "inquiryDate": 12072019,
+            "customerNumber": "456FP05812",
+            "customerName": "REG ACCPT"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "FA",
+            "inquiryDate": 12072019,
+            "customerNumber": "682FA07561",
+            "customerName": "SANTANDER"
+          },
+          {
+            "type": "inquiry",
+            "industryCode": "UZ",
+            "inquiryDate": 10032019,
+            "customerNumber": "990UZ84682",
+            "customerName": "DIRECTV"
+          }
+        ],
+        "consumerStatements": {
+          "dateReported": 17422,
+          "datePurged": 17430,
+          "statement": "NEXJTX YXCDXL WAX DWXBT EDTWXR JMKCX D AJCX MXXH DH WAX NYKPXTT KG WYODHU WK NJO KGG KER MDEET JHR PEXJH FN BO        YXNKYW BJHO KG WAXTX MDEET AJCX MXXH NJDR KY LXYX DHPEFRXR DH BO MJHVYFNWPO GYKB 1553 WAJHV OKF DH JRCJHPX GKY OKFY JTTDTWJHPX"
+        },
+        "models": [
+          {
+            "type": "MODEL",
+            "modelNumber": 1258,
+            "score": 506,
+            "reasons": [
+              {
+                "code": "00038"
+              },
+              {
+                "code": "00018"
+              },
+              {
+                "code": 15
+              },
+              {
+                "code": "00019"
+              }
+            ],
+            "scoreNumberOrMarketMaxIndustryCode": {
+              "code": 1
+            }
+          },
+          {
+            "type": "RBP",
+            "modelNumber": 1258,
+            "riskBasedPricingOrModel": {
+              "percentage": 5,
+              "lowRange": 192,
+              "highRange": "00850"
+            }
+          },
+          {
+            "type": "MODEL",
+            "modelNumber": 1260,
+            "score": 522,
+            "reasons": [
+              {
+                "code": "00038"
+              },
+              {
+                "code": "00018"
+              },
+              {
+                "code": 15
+              },
+              {
+                "code": 12
+              }
+            ],
+            "scoreNumberOrMarketMaxIndustryCode": {
+              "code": 1
+            }
+          },
+          {
+            "type": "RBP",
+            "modelNumber": 1260,
+            "riskBasedPricingOrModel": {
+              "percentage": 7,
+              "lowRange": 168,
+              "highRange": "00900"
+            }
+          },
+          {
+            "type": "MODEL",
+            "modelNumber": 1262,
+            "score": 517,
+            "reasons": [
+              {
+                "code": "00038"
+              },
+              {
+                "code": "00018"
+              },
+              {
+                "code": 15
+              },
+              {
+                "code": "00019"
+              }
+            ],
+            "scoreNumberOrMarketMaxIndustryCode": {
+              "code": 1
+            }
+          },
+          {
+            "type": "RBP",
+            "modelNumber": 1262,
+            "riskBasedPricingOrModel": {
+              "percentage": "00008",
+              "lowRange": 168,
+              "highRange": "00900"
+            }
+          },
+          {
+            "type": "MODEL",
+            "modelNumber": "02583",
+            "score": 0,
+            "modelIDOrScorecard": 1,
+            "scoreNumberOrMarketMaxIndustryCode": {
+              "code": 0
+            }
+          },
+          {
+            "type": "MODEL",
+            "modelNumber": "02978",
+            "score": 547,
+            "reasons": [
+              {
+                "code": 91
+              },
+              {
+                "code": "TX"
+              },
+              {
+                "code": 50
+              },
+              {
+                "code": "TD"
+              }
+            ],
+            "inquiryKeyFactor": {
+              "code": "Y",
+              "description": "Yes - “NUMBER OF INQUIRIES ADVERSELY AFFECTED THE SCORE BUT NOT SIGNIFICANTLY” and inquiries were not already included in one of the top 4 reasons. If inquiries did not adversely affect the score (and were not in the top 4 reasons), a “blank” is returned. (Returned on FACTA versions models only.)"
+            },
+            "modelIDOrScorecard": 1,
+            "scoreNumberOrMarketMaxIndustryCode": {
+              "code": 0
+            }
+          },
+          {
+            "type": "RBP",
+            "modelNumber": "02978",
+            "riskBasedPricingOrModel": {
+              "percentage": 5,
+              "lowRange": 321,
+              "highRange": "00990"
+            }
+          },
+          {
+            "type": "MODEL",
+            "modelNumber": 2659,
+            "score": 546,
+            "reasons": [
+              {
+                "code": "00098"
+              },
+              {
+                "code": "00008"
+              },
+              {
+                "code": 13
+              },
+              {
+                "code": 17
+              }
+            ],
+            "inquiryKeyFactor": {
+              "code": "Y",
+              "description": "Yes - “NUMBER OF INQUIRIES ADVERSELY AFFECTED THE SCORE BUT NOT SIGNIFICANTLY” and inquiries were not already included in one of the top 4 reasons. If inquiries did not adversely affect the score (and were not in the top 4 reasons), a “blank” is returned. (Returned on FACTA versions models only.)"
+            },
+            "modelIDOrScorecard": 1,
+            "scoreNumberOrMarketMaxIndustryCode": {
+              "code": 1
+            }
+          },
+          {
+            "type": "RBP",
+            "modelNumber": 2659,
+            "riskBasedPricingOrModel": {
+              "percentage": 11,
+              "lowRange": 192,
+              "highRange": "00850"
+            }
+          },
+          {
+            "type": "MODEL",
+            "modelNumber": "02916",
+            "score": 1345,
+            "reasons": [
+              {
+                "code": 115
+              },
+              {
+                "code": 126
+              },
+              {
+                "code": "00178"
+              },
+              {
+                "code": "00169"
+              }
+            ],
+            "modelIDOrScorecard": 1,
+            "scoreNumberOrMarketMaxIndustryCode": {
+              "code": 1
+            }
+          }
+        ],
+        "identification": {
+          "subjectSocialNum": 666698774,
+          "socialNumConfirmed": "Y",
+          "socialMatchFlags": "YYYYYNNNN",
+          "inquirySocialNum": 666697180,
+          "inquirySocialNumStateIssued": "GA",
+          "inquirySocialNumYearIssued": 2007,
+          "socialNumMatch": "N"
+        },
+        "onlineGeoCode": {
+          "streetNumber": 7947,
+          "streetName": "PJEDGKYHDJ",
+          "streetTypeOrDirection": "ST",
+          "city": "HOBART",
+          "stateAbbreviation": "IN",
+          "zipCode": 46342,
+          "typeOfAddress": {
+            "code": "CA",
+            "description": "Inq Current (the inquiry is about the current address)"
+          },
+          "returnCode1": {
+            "code": 1,
+            "description": "GEO info not found ZIP missing or zeros"
+          },
+          "returnCode2": {
+            "code": 0,
+            "description": "No match of block group"
+          },
+          "returnCode3": {
+            "code": 0,
+            "description": "No match of census track"
+          },
+          "returnCode4": {
+            "code": 0,
+            "description": "No match of enumeration district"
+          }
+        },
+        "OFACAlerts": [
+          {
+            "revisedLegalVerbiageIndicator": 2,
+            "memberFirmCode": "OFAC",
+            "cdcTransactionDate": "08242021",
+            "cdcTransactionTime": 181724,
+            "transactionType": "O",
+            "cdcResponseCode": "N",
+            "legalVerbiage": "NO MATCH FOUND IN CDCS OFAC DATABASE.",
+            "dataSegmentRegulated": "N"
+          }
+        ],
+        "consumerReferralLocation": {
+          "bureauCode": 347,
+          "bureauName": "EQUIFAX INFORMATION SERVICES LLC",
+          "address": {
+            "cityName": "ATLANTA",
+            "stateAbbreviation": "GA",
+            "zipCode": 303740241
+          },
+          "telephoneNumber": {
+            "telephoneNumber": 8006851111
+          }
+        },
+        "alternateDataSources": {
+          "militaryLendingCoveredBorrower": {
+            "regulatedIdentifier": "RG",
+            "disclaimer": "DISCLAIMER: THE DEPARTMENT OF DEFENSE (DOD) COVERED BORROWER DATA (DATA) IS FROM THE DEFENSE MANPOWER DATA CENTER (DMDC) BY WAY OF CONTRACT BETWEEN EQUIFAX INFORMATION SERVICES LLC (EQUIFAX) AND DOD. ALL DOD DATA IS USED AND STORED BY EQUIFAX IN ACCORDANCE WITH ITS LEGAL AND CONTRACTUAL OBLIGATIONS. THE DOD DATA IS NOT PART OF EQUIFAXS NATIONWIDE CREDIT DATABASE, AND EQUIFAX IS REQUIRED TO MAINTAIN THE DOD DATA SEPARATE FROM AND NOT COMMINGLED WITH ANY CREDIT DATA MAINTAINED BY EQUIFAX.",
+            "coveredBorrowerStatus": "N",
+            "referralContactNumber": "888-279-8625"
+          }
+        }
+      }
+    ],
+    "twnSelectReport": [
+      {
+        "identifier": "current",
+        "twnSelect": {
+          "signOn": {
+            "statusCode": 0,
+            "statusSeverity": "INFO"
+          },
+          "transactionId": "b8a916d4-7653-4394-a3eb-03c1a9164f7f",
+          "statusCode": 0,
+          "statusSeverity": "INFO",
+          "masterServerTransactionId": 100355881013,
+          "transactionPurposeCode": "PPASSESS",
+          "transactionPurposeMessage": "As a potential investor or servicer to assess prepayment risks of issuing credit to the employee, or as a current insurer to assess the employees existing credit",
+          "twnSelectResponses": [
+            {
+              "dateOfTransaction": "2021-08-24T00:00:00.000Z",
+              "baseCompensation": {
+                "payFrequency": {
+                  "code": 9,
+                  "message": "Hourly"
+                },
+                "rateOfPayPerPayPeriod": 15,
+                "averageHoursWorkedPerPayPeriod": 80,
+                "payPeriodFrequency": {
+                  "code": 6,
+                  "message": "Biweekly"
+                }
+              },
+              "annualCompensation": [
+                {
+                  "yearCalendar": 2021,
+                  "yearToDateBase": 20400,
+                  "yearToDateOvertime": 200,
+                  "yearToDateCommission": 0,
+                  "yearToDateBonus": 400,
+                  "yearToDateOther": 50,
+                  "yearToDateTotal": 21050
+                },
+                {
+                  "yearCalendar": 2020,
+                  "yearToDateBase": 29640,
+                  "yearToDateOvertime": 180,
+                  "yearToDateCommission": 0,
+                  "yearToDateBonus": 360,
+                  "yearToDateOther": 45,
+                  "yearToDateTotal": 30225
+                },
+                {
+                  "yearCalendar": 2019,
+                  "yearToDateBase": 28158,
+                  "yearToDateOvertime": 162,
+                  "yearToDateCommission": 0,
+                  "yearToDateBonus": 324,
+                  "yearToDateOther": 40.5,
+                  "yearToDateTotal": 28684.5
+                }
+              ],
+              "employer": {
+                "code": 91001,
+                "namePart1": "Enterprise One",
+                "addressLine1": "1313 Mockingbird Lane",
+                "city": "St Louis",
+                "stateOrProvince": "MO",
+                "postalCode": 63146
+              },
+              "employee": {
+                "ssn": 666697180,
+                "firstName": "CANDICE",
+                "middleName": "A",
+                "lastName": "BARKER",
+                "positionTitle": "DEMO EMPLOYEE",
+                "divisionCode": "DEMO server",
+                "statusDataCode": 20,
+                "statusDataMessage": "Transferred",
+                "dateInformationEffective": "2021-08-20T00:00:00.000Z",
+                "dateOfTheMostRecentHire": "2004-04-29T00:00:00.000Z",
+                "originalHireDate": "2004-04-29T00:00:00.000Z",
+                "totalLengthOfServiceInMonths": 102,
+                "dateEmploymentTerminated": "2012-10-26T00:00:00.000Z",
+                "reasonForTermination": "Cause"
+              },
+              "benefits": null,
+              "compensationAdjustmentLastDate": "2021-07-24T00:00:00.000Z",
+              "compensationAdjustmentLastAmountIncrease": 1000,
+              "compensationAdjustmentNextDate": "2022-08-23T00:00:00.000Z",
+              "compensationAdjustmentNextAmountIncrease": 1000,
+              "completenessOfTheData": "INCOME",
+              "serverAssignedId": 100355880997,
+              "isDemoTransaction": [],
+              "projectedIncome": -1
+            },
+            {
+              "dateOfTransaction": "2021-08-24T00:00:00.000Z",
+              "baseCompensation": null,
+              "payFrequency": {
+                "code": 0,
+                "message": "Hourly"
+              },
+              "rateOfPayPerPayPeriod": 19,
+              "averageHoursWorkedPerPayPeriod": 80,
+              "payPeriodFrequency": {
+                "code": 6,
+                "message": "Biweekly"
+              },
+              "annualCompensation": null,
+              "employer": {
+                "code": 91001,
+                "namePart1": "Enterprise One",
+                "addressLine1": "1313 Mockingbird Lane",
+                "city": "St Louis",
+                "stateOrProvince": "MO",
+                "postalCode": 63146
+              },
+              "employee": {
+                "ssn": 666697180,
+                "firstName": "CANDICE",
+                "middleName": "A",
+                "lastName": "BARKER",
+                "positionTitle": "DEMO EMPLOYEE",
+                "divisionCode": "DEMO Chef",
+                "statusDataCode": 1,
+                "statusDataMessage": "Active",
+                "dateInformationEffective": "2021-08-20T00:00:00.000Z",
+                "dateOfTheMostRecentHire": "2005-02-14T00:00:00.000Z",
+                "originalHireDate": "2004-04-29T00:00:00.000Z",
+                "totalLengthOfServiceInMonths": 198
+              },
+              "benefits": null,
+              "compensationAdjustmentLastDate": "2021-07-24T00:00:00.000Z",
+              "compensationAdjustmentLastAmountIncrease": 1000,
+              "compensationAdjustmentNextDate": "2022-08-23T00:00:00.000Z",
+              "compensationAdjustmentNextAmountIncrease": 1000,
+              "completenessOfTheData": "INCOME",
+              "serverAssignedId": 100355880999,
+              "isDemoTransaction": [],
+              "projectedIncome": -1
+            },
+            {
+              "dateOfTransaction": "2021-08-24T00:00:00.000Z",
+              "baseCompensation": null,
+              "payFrequency": {
+                "code": 1,
+                "message": "Annual"
+              },
+              "rateOfPayPerPayPeriod": 70085.25,
+              "averageHoursWorkedPerPayPeriod": 40,
+              "payPeriodFrequency": {
+                "code": 7,
+                "message": "Weekly"
+              },
+              "annualCompensation": [
+                {
+                  "yearCalendar": 2018,
+                  "yearToDateBase": 12130.14,
+                  "yearToDateOvertime": 0,
+                  "yearToDateCommission": 0,
+                  "yearToDateBonus": 400,
+                  "yearToDateOther": 50,
+                  "yearToDateTotal": 12580.14
+                },
+                {
+                  "yearCalendar": 2017,
+                  "yearToDateBase": 66580.99,
+                  "yearToDateOvertime": 0,
+                  "yearToDateCommission": 0,
+                  "yearToDateBonus": 360,
+                  "yearToDateOther": 45,
+                  "yearToDateTotal": 66985.99
+                },
+                {
+                  "yearCalendar": 2016,
+                  "yearToDateBase": 63251.94,
+                  "yearToDateOvertime": 0,
+                  "yearToDateCommission": 0,
+                  "yearToDateBonus": 324,
+                  "yearToDateOther": 40.5,
+                  "yearToDateTotal": 63616.44
+                }
+              ],
+              "employer": {
+                "code": 90001,
+                "namePart1": "Enterprise USA",
+                "addressLine1": "316 11th Street",
+                "city": "De Witt",
+                "stateOrProvince": "IA",
+                "postalCode": 52742,
+                "itemizedDisclaimers": [
+                  {
+                    "disclaimerType": "ER"
+                  },
+                  {
+                    "disclaimerText": "This is a very long test company note that will be repeated multiple times. This is a very long test company note that will be repeated multiple times. This is a very long test company note that will be repeated multiple times. This is a very long test company note that will be repeated multiple times. This is a very long test company note that will be repeated multiple times. This is a very long test company note that will be repeated multiple times. This is a very long test company note that will be repeated multiple times. This is a very long test company note that will be repeated multiple times."
+                  }
+                ]
+              },
+              "employee": {
+                "ssn": 666697180,
+                "firstName": "CANDICE",
+                "middleName": "A",
+                "lastName": "BARKER",
+                "positionTitle": "DEMO EMPLOYEE",
+                "divisionCode": "DEMO 1",
+                "statusDataCode": 8,
+                "statusDataMessage": "Inactive",
+                "dateInformationEffective": "2021-08-13T00:00:00.000Z",
+                "dateOfTheMostRecentHire": "2009-07-13T00:00:00.000Z",
+                "originalHireDate": "2001-06-12T00:00:00.000Z",
+                "totalLengthOfServiceInMonths": 20,
+                "dateEmploymentTerminated": "2011-03-24T00:00:00.000Z",
+                "reasonForTermination": "Cause"
+              },
+              "benefits": {
+                "completenessOfTheData": "INCOME",
+                "serverAssignedId": 100355881001,
+                "isDemoTransaction": [
+                  "Employer"
+                ],
+                "projectedIncome": -1
+              }
+            },
+            {
+              "dateOfTransaction": "2021-08-24T00:00:00.000Z",
+              "baseCompensation": {
+                "payFrequency": {
+                  "code": 1,
+                  "message": "Annual"
+                },
+                "rateOfPayPerPayPeriod": 96000,
+                "averageHoursWorkedPerPayPeriod": 80,
+                "payPeriodFrequency": {
+                  "code": 4,
+                  "message": "Monthly"
+                }
+              },
+              "annualCompensation": [
+                {
+                  "yearCalendar": 2014,
+                  "yearToDateBase": 31384.62,
+                  "yearToDateOvertime": 0,
+                  "yearToDateCommission": 2000,
+                  "yearToDateBonus": 350,
+                  "yearToDateOther": 200,
+                  "yearToDateTotal": 33934.62
+                },
+                {
+                  "yearCalendar": 2013,
+                  "yearToDateBase": 91200,
+                  "yearToDateOvertime": 0,
+                  "yearToDateCommission": 1800,
+                  "yearToDateBonus": 315,
+                  "yearToDateOther": 180,
+                  "yearToDateTotal": 93495
+                },
+                {
+                  "yearCalendar": 2012,
+                  "yearToDateBase": 86400,
+                  "yearToDateOvertime": 0,
+                  "yearToDateCommission": 1620,
+                  "yearToDateBonus": 283.5,
+                  "yearToDateOther": 162,
+                  "yearToDateTotal": 88465.5
+                }
+              ],
+              "employer": {
+                "code": 90005,
+                "namePart1": "Enterprise USA Financial",
+                "addressLine1": "11435 Lackland",
+                "city": "St. Louis",
+                "stateOrProvince": "MO",
+                "postalCode": 63146,
+                "itemizedDisclaimers": [
+                  {
+                    "disclaimerType": "ER"
+                  },
+                  {
+                    "disclaimerText": "<br /> <em>This is a global message and is provided on every verification for your information and convenience. Garnishment requests should be sent to</em>:?<br /><br /><u>Test & Go, L.C.</u><br />ATTN: Payroll<br />9999 Fake?Pkwy.<br />West Des Moines, IA?55555<br /><br /><strong>For DOT verifications</strong>, please contact our Safety Department using one of the following methods:<br /><br />? - Email:?<strong>eCommerceIntegration@talx.com</strong><br />? - Fax: 555-555-5555<br />? - Phone: 555-555-5555"
+                  }
+                ]
+              },
+              "employee": {
+                "ssn": 666697180,
+                "firstName": "CANDICE",
+                "middleName": "A",
+                "lastName": "BARKER",
+                "positionTitle": "PROJECT MANAGER",
+                "divisionCode": "DEMO 1",
+                "statusDataCode": 1,
+                "statusDataMessage": "Active",
+                "dateInformationEffective": "2014-04-15T00:00:00.000Z",
+                "dateOfTheMostRecentHire": "2006-09-17T00:00:00.000Z",
+                "originalHireDate": "2006-08-01T00:00:00.000Z",
+                "totalLengthOfServiceInMonths": 91
+              },
+              "benefits": null,
+              "compensationAdjustmentLastDate": "2014-03-30T00:00:00.000Z",
+              "compensationAdjustmentLastAmountIncrease": 1000,
+              "compensationAdjustmentNextDate": "2015-04-29T00:00:00.000Z",
+              "compensationAdjustmentNextAmountIncrease": 1000,
+              "completenessOfTheData": "INCOME",
+              "serverAssignedId": 100355881003,
+              "isDemoTransaction": [
+                "Employer"
+              ],
+              "projectedIncome": -1
+            }
+          ]
+        }
+      }
+    ],
+    "dataxReport": [
+      {
+        "identifier": "current",
+        "dataxCreditReportResponse": {
+          "transaction": {
+            "generationTime": 20210824111726,
+            "codeVersion": "default",
+            "requestVersion": 3,
+            "transactionId": 79705842,
+            "trackHash": "4c23ea0c2de140fbfb2192f26d5ae090",
+            "trackId": "cc939cdc-b0fa-4a4a-8d90-f2be52050d75"
+          },
+          "craInquirySegment": {
+            "craResponse": {
+              "version": 3,
+              "transactionID": 25408024,
+              "inquiryID": 26166657,
+              "inquiryDateTime": "2019-09-03T08:00:00.000Z",
+              "consumer": {
+                "id": 1727569,
+                "name": {
+                  "first": "Bob",
+                  "middle": "The",
+                  "last": "Builder"
+                },
+                "ssn": 666697180,
+                "dob": "1998-11-28T00:00:00.000Z",
+                "license": {
+                  "state": "NV",
+                  "number": 12341234
+                },
+                "address": {
+                  "name": "home",
+                  "street1": "1234 Main St",
+                  "street2": null,
+                  "city": "Las Vegas",
+                  "state": "NV",
+                  "zip": 89119,
+                  "housingStatus": null
+                },
+                "employer": {
+                  "name": "Jobby Job",
+                  "street1": null,
+                  "street2": null,
+                  "city": null,
+                  "state": null,
+                  "zip": 0,
+                  "payPeriod": "SEMI_MONTHLY",
+                  "nextPayDate": "2013-06-18T00:00:00.000Z",
+                  "monthlyIncome": 13000.23,
+                  "directDeposit": true
+                },
+                "phoneHome": 5552323456,
+                "phoneCell": 5552323452,
+                "phoneWork": 5552323451,
+                "phoneExt": 0,
+                "email": "bob@example.com",
+                "ipAddress": "70.193.245.78",
+                "bankAccount": {
+                  "name": "Bank of Banks",
+                  "account": 12345678,
+                  "abanumber": 1001008
+                },
+                "requestedLoanAmount": 1000
+              },
+              "report": {
+                "consumerSummarySegment": {
+                  "indicators": {
+                    "indicatorSummary": {
+                      "count": 7,
+                      "indicator": [
+                        {
+                          "count": 1,
+                          "code": "C100",
+                          "message": "First report of consumer"
+                        },
+                        {
+                          "count": 1,
+                          "code": "N002",
+                          "message": "First report of name"
+                        },
+                        {
+                          "count": 1,
+                          "code": "L001",
+                          "message": "First report of license"
+                        },
+                        {
+                          "count": 1,
+                          "code": "A002",
+                          "message": "First report of address"
+                        },
+                        {
+                          "count": 1,
+                          "code": "E002",
+                          "message": "First report of employer address"
+                        },
+                        {
+                          "count": 1,
+                          "code": "E101",
+                          "message": "First report of email address"
+                        },
+                        {
+                          "count": 1,
+                          "code": "A102",
+                          "message": "First report of account"
+                        }
+                      ]
+                    }
+                  },
+                  "uniqueIdentifiersSummary": {
+                    "name": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "address": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "homePhone": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "workPhone": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "cellPhone": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "allPhones": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 2,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 2,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 2,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 2,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 2,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "sumOfPhones": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 2,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 2,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 2,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 2,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 2,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 2,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "email": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "bankAccountByEmail": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "bankAccountABA": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "ssnByBankAccount": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "emailByBankAccount": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "homeAddressByBankAccount": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "homePhoneByBankAccount": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "workPhoneByBankAccount": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 1,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 1,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "ipAddress": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "ssnByIpAddress": {
+                      "daysSince": 1264,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 5,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 5,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "bankAccountByIpAddress": {
+                      "daysSince": 1264,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 5,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 5,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "emailByIpAddress": {
+                      "daysSince": 1265,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 3,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 3,
+                          "years": 7
+                        }
+                      ]
+                    }
+                  },
+                  "consumerAlertsDisputesFreezes": {
+                    "activeDuty": "n",
+                    "activeDutyExp": null,
+                    "initialFraud": "n",
+                    "extendedFraud": "n",
+                    "fraudExpiration": null,
+                    "freeze": "n",
+                    "freezeDate": null,
+                    "softInquiryFreeze": "n",
+                    "softInquiryFreezeExpiration": null,
+                    "dispute": "n",
+                    "disputeContents": null
+                  },
+                  "account": {
+                    "lastAccountTransactionStatus": null,
+                    "lastAccountTransactionDate": null
+                  },
+                  "allTransactionsSummary": {
+                    "vendorInquiries": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "uniqueMemberInquiries": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "applicationInquiries": {
+                      "daysSince": 0,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "dailyInquiries": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "chargeoffs": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "totalChargeOffs": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "predictedChargeoffs": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "activeTradelines": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "activeTradelinesComputed": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "openedTradelines": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "achReturns": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "nsfReturns": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "nonNsfReturns": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "achDebitAttempts": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "firstPaymentReturns": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "paymentsCompleted": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "paymentsReturned": {
+                      "daysSince": null,
+                      "total": [
+                        {
+                          "days": 1,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 3,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 7,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 14,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 30,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 60,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 90,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 120,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 180,
+                          "text": 0,
+                          "years": 0
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 1
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 2
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 3
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 5
+                        },
+                        {
+                          "days": 0,
+                          "text": 0,
+                          "years": 7
+                        }
+                      ]
+                    },
+                    "currentTradelines": 0,
+                    "currentTradelinesComputed": 0,
+                    "totalTradelines": 0,
+                    "totalUniqueMemberTradelines": 0,
+                    "maximumOpenTradelines": 0,
+                    "totalCurrentPrincipal": 0,
+                    "maximumTradelinePrincipal": 0,
+                    "maximumTotalPrincipal": 0,
+                    "maximumTradelinePrincipalPaidOff": 0,
+                    "maximumTotalPrincipalPaidOff": 0,
+                    "firstPaymentDefaults": 0,
+                    "firstPaymentFatals": 0,
+                    "lastPaymentDate": null,
+                    "lastPaymentDisposition": null,
+                    "lastPaymentType": null,
+                    "lastPaymentAmount": 0,
+                    "lastPaymentReturnReason": null,
+                    "secondLastPaymentDate": null,
+                    "secondLastPaymentDisposition": null,
+                    "secondLastPaymentType": null,
+                    "secondLastPaymentAmount": 0,
+                    "secondLastPaymentReturnReason": null,
+                    "thirdLastPaymentDate": null,
+                    "thirdLastPaymentDisposition": null,
+                    "thirdLastPaymentType": null,
+                    "thirdLastPaymentAmount": 0,
+                    "thirdLastPaymentReturnReason": null,
+                    "lastThreePayments": "CCR",
+                    "totalRecoveries": 0,
+                    "totalPaidOffs": 0,
+                    "tradelinesByInquiringMember": 0,
+                    "lastTradelineStatusByInquiringMember": null,
+                    "daysSinceLastTradeline": 0,
+                    "daysSinceLastAch": 0,
+                    "daysSinceLastFatalReturn": 0,
+                    "totalAchDebitAttempts": 0,
+                    "lastReturnDate": null,
+                    "lastReturnReason": null,
+                    "lastReturnMessage": null,
+                    "daysSinceLastReturn": 0,
+                    "lastInquiryDate": null,
+                    "timeSinceLastInquiry": {
+                      "years": 0,
+                      "days": 0,
+                      "hours": 0,
+                      "minutes": 0,
+                      "seconds": 0
+                    },
+                    "lastTradelineDate": null,
+                    "lastChargeOffDate": null
+                  }
+                },
+                "inquirySegment": {
+                  "count": 0
+                },
+                "tradelineDetailSegment": {
+                  "count": 0
+                }
+              }
+            },
+            "customDecision": {
+              "result": "Y",
+              "bucket": "A2"
+            }
+          },
+          "globalDecision": {
+            "result": "Y",
+            "craBucket": "A2"
+          }
+        }
+      }
+    ]
+  },
+  "links": [
+    {
+      "identifier": "Individual Report 1,",
+      "type": "GET,",
+      "href": "/business/oneview/consumer-credit/v1/reports/credit-report/0a341dc4-bf90-4a7b-8e29-ebc4787a7f0a"
+    }
+  ]
+}
