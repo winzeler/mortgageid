@@ -82,9 +82,9 @@ Integrate with a legacy credit provider.  ...possibly Equifax, where we've got a
 
 <img src="https://github.com/winzeler/mortgageid/raw/main/screenshots/20220605_090139.jpg" alt="Former Participant in Equifax Accelerate 2021" width="200"/>
 
-__Former Participant in Equifax Accelerate 2021__  ...hence EFX API >> JSON blob >> Verida next step
+__Former Participant in Equifax Accelerate 2021__  ...hence [EFX API >> JSON blob >> Verida next step](https://github.com/winzeler/mortgageid/blob/main/sample/efx-json.md)
 
-What does that JSON Response look like..?
+[What does that JSON Response look like.. Click Here](https://github.com/winzeler/mortgageid/blob/main/sample/efx-json.md)
 
 [Demo Link](https://mortgageid.com) __coming soon__
 
