@@ -1,0 +1,40 @@
+/* Standard card */
+.card {
+  @apply bg-themeBackground-100 shadow-lg rounded;
+}
+
+.card .card-header {
+  @apply bg-white border border-t-0 border-l-0 border-r-0 px-4 sm:px-8 py-2 sm:py-4 mb-0;
+}
+
+.card .card-body {
+  @apply px-4 sm:px-8 py-3 sm:py-6;
+}
+
+/* Small card */
+
+.card-sm {
+  @apply bg-themeBackground-100 shadow-md rounded;
+}
+
+.card-sm .card-header {
+  @apply bg-white border border-t-0 border-l-0 border-r-0 px-2 sm:px-4 py-2 sm:py-4 mb-0;
+}
+
+.card-sm .card-body {
+  @apply px-2 sm:px-4 py-2 sm:py-4;
+}
+
+/* Extra-small card */
+
+.card-xs {
+  @apply bg-themeBackground-100 shadow rounded;
+}
+
+.card-xs .card-header {
+  @apply bg-white border border-t-0 border-l-0 border-r-0 px-2 py-2 mb-0;
+}
+
+.card-xs .card-body {
+  @apply px-2 py-2;
+}

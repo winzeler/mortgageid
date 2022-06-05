@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserModel hasFlag should not serialize secure flags 1`] = `
+Object {
+  "account_type": undefined,
+  "created_at": Any<String>,
+  "email": undefined,
+  "email_confirmed": undefined,
+  "flags": Object {
+    "insecureFlag": "insecure_value",
+  },
+  "id": undefined,
+  "last_logged_in_at": undefined,
+  "name": undefined,
+  "teams": Array [],
+  "updated_at": Any<String>,
+}
+`;

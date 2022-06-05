@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamModel hasFlag should not serialize secure flags 1`] = `
+Object {
+  "created_at": Any<String>,
+  "currency": undefined,
+  "flags": Object {
+    "insecureFlag": "insecure_value",
+  },
+  "id": undefined,
+  "name": undefined,
+  "subscription": undefined,
+  "updated_at": Any<String>,
+}
+`;

@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublicTeamsController GET /public/team/invites/:token should error if invite has expired 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "title": "There is no valid invite for that token; it may have expired.",
+    },
+  ],
+}
+`;
+
+exports[`PublicTeamsController GET /public/team/invites/:token should error if no invite for that token 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "title": "There is no valid invite for that token; it may have expired.",
+    },
+  ],
+}
+`;
+
+exports[`PublicTeamsController GET /public/team/invites/:token should redirect to login with error if already on team 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_ALREADY_ON_TEAM",
+      "title": "You are already on this team.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`PublicTeamsController GET /public/team/invites/:token should return invite details where user does not exist 1`] = `
+Object {
+  "data": Object {
+    "invite": Object {
+      "email": "valid@domain.com",
+      "name": "name",
+      "role": "owner",
+    },
+    "team_name": "name",
+    "user_exists": false,
+  },
+}
+`;
+
+exports[`PublicTeamsController GET /public/team/invites/:token should return invite users where user does already exist 1`] = `
+Object {
+  "data": Object {
+    "invite": Object {
+      "email": "valid@domain.com",
+      "name": "name",
+      "role": "owner",
+    },
+    "team_name": "name",
+    "user_exists": true,
+  },
+}
+`;
+
+exports[`PublicTeamsController PUT /public/team/invites/:token should add user to team 1`] = `
+Array [
+  "csrf=ekEeeNexYe3; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; Secure; SameSite=Strict",
+  "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJub2Rld29vZCIsInN1YiI6IjVWeVhtNzYxIiwiZXhwIjoxNTc4NDQxNjAwLCJ1X3NlcmllcyI6IncweW1YTXZkIiwiZ19zZXJpZXMiOiJ3MHltWE12ZCIsImNzcmYiOiJla0VlZU5leFllMyIsInRlYW0iOiJ3MHltWE12ZCIsInJvbGUiOiJtZW1iZXIiLCJpYXQiOjE1Nzc4MzY4MDB9.FkciTaFBcPVATnX6enRpqCz661Hg7sWT_2tftntARK4; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; HttpOnly; Secure; SameSite=Strict",
+]
+`;
+
+exports[`PublicTeamsController PUT /public/team/invites/:token should create user and add to team 1`] = `
+Array [
+  "csrf=ekEeeNexYe3; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; Secure; SameSite=Strict",
+  "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJub2Rld29vZCIsInN1YiI6IjVWeVhtNzYxIiwiZXhwIjoxNTc4NDQxNjAwLCJ1X3NlcmllcyI6IncweW1YTXZkIiwiZ19zZXJpZXMiOiJ3MHltWE12ZCIsImNzcmYiOiJla0VlZU5leFllMyIsInRlYW0iOiJ3MHltWE12ZCIsInJvbGUiOiJtZW1iZXIiLCJpYXQiOjE1Nzc4MzY4MDB9.FkciTaFBcPVATnX6enRpqCz661Hg7sWT_2tftntARK4; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; HttpOnly; Secure; SameSite=Strict",
+]
+`;
+
+exports[`PublicTeamsController PUT /public/team/invites/:token should create user and add to team 2`] = `
+Object {
+  "account_type": "user",
+  "created_at": Any<Date>,
+  "email": "new@domain.com",
+  "email_confirmed": false,
+  "flags": Any<Object>,
+  "id": 2,
+  "jwt_series": 1,
+  "last_logged_in_at": 2020-01-01T00:00:00.000Z,
+  "name": "actually_name",
+  "password": Any<String>,
+  "secure_flags": Any<Object>,
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`PublicTeamsController PUT /public/team/invites/:token should error if invite has expired 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "title": "There is no valid invite for that token; it may have expired.",
+    },
+  ],
+}
+`;
+
+exports[`PublicTeamsController PUT /public/team/invites/:token should error if mismatch password for existing user 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_LOGIN",
+      "title": "Invalid password.",
+    },
+  ],
+}
+`;
+
+exports[`PublicTeamsController PUT /public/team/invites/:token should error if no invite for that token 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "title": "There is no valid invite for that token; it may have expired.",
+    },
+  ],
+}
+`;
+
+exports[`PublicTeamsController PUT /public/team/invites/:token should validate the request when user doesn't exist 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "name",
+      },
+      "title": "You must enter a name.",
+    },
+    Object {
+      "code": "ERROR_MIN_LENGTH",
+      "meta": Object {
+        "minLength": 8,
+      },
+      "source": Object {
+        "parameter": "password",
+      },
+      "title": "Password must be at least 8 characters.",
+    },
+    Object {
+      "code": "ERROR_MATCH_FIELD",
+      "meta": Object {
+        "matchField": "password",
+      },
+      "source": Object {
+        "parameter": "password_repeat",
+      },
+      "title": "Passwords must match.",
+    },
+  ],
+}
+`;
+
+exports[`PublicTeamsController PUT /public/team/invites/:token should validate the request when user exists 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_MIN_LENGTH",
+      "meta": Object {
+        "minLength": 8,
+      },
+      "source": Object {
+        "parameter": "password",
+      },
+      "title": "Password must be at least 8 characters.",
+    },
+  ],
+}
+`;

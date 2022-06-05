@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublicUsersController POST /public/change-password should error when token expired 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "source": Object {
+        "parameter": "password",
+      },
+      "title": "The password reset token provided has expired.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/change-password should error when token not found 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "source": Object {
+        "parameter": "password",
+      },
+      "title": "Could not find a user with that password reset token.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/change-password should validate form 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "token",
+      },
+      "title": "You must provide a token.",
+    },
+    Object {
+      "code": "ERROR_MIN_LENGTH",
+      "meta": Object {
+        "minLength": 8,
+      },
+      "source": Object {
+        "parameter": "password",
+      },
+      "title": "Password must be at least 8 characters.",
+    },
+    Object {
+      "code": "ERROR_MATCH_FIELD",
+      "meta": Object {
+        "matchField": "password",
+      },
+      "source": Object {
+        "parameter": "password_repeat",
+      },
+      "title": "Passwords must match.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/confirm-email should error when token expired 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "title": "The creation token provided has expired.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/confirm-email should error when token not found 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "title": "Could not find a user with that creation token.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/confirm-email should validate form 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "token",
+      },
+      "title": "You must provide a token.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/login should error when account is locked out 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_LOGIN",
+      "title": "Invalid email address or password.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/login should error when account is locked out 2`] = `"2020-01-01T00:00:00+00:00"`;
+
+exports[`PublicUsersController POST /public/login should error when incorrect email 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_LOGIN",
+      "title": "Invalid email address or password.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/login should error when incorrect password 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_LOGIN",
+      "title": "Invalid email address or password.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/login should error when incorrect password 2`] = `"2020-01-01T00:00:00+00:00"`;
+
+exports[`PublicUsersController POST /public/login should log in a user and clear failed login counts 1`] = `
+Array [
+  "csrf=ekEeeNexYe3; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; Secure; SameSite=Strict",
+  "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJub2Rld29vZCIsInN1YiI6IncweW1YTXZkIiwiZXhwIjoxNTc4NDQxNjAwLCJ1X3NlcmllcyI6IncweW1YTXZkIiwiZ19zZXJpZXMiOiJ3MHltWE12ZCIsImNzcmYiOiJla0VlZU5leFllMyIsInRlYW0iOiJ3MHltWE12ZCIsInJvbGUiOiJvd25lciIsImlhdCI6MTU3NzgzNjgwMH0.5teZP3pe9s4WTzYqhvXXfJzfvAZ9GyztH0r_RK4oPGs; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; HttpOnly; Secure; SameSite=Strict",
+]
+`;
+
+exports[`PublicUsersController POST /public/login should validate form 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_EMAIL",
+      "source": Object {
+        "parameter": "email",
+      },
+      "title": "You must enter a valid email address.",
+    },
+    Object {
+      "code": "ERROR_MIN_LENGTH",
+      "meta": Object {
+        "minLength": 8,
+      },
+      "source": Object {
+        "parameter": "password",
+      },
+      "title": "Password must be at least 8 characters.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/reset-password should validate form 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_EMAIL",
+      "source": Object {
+        "parameter": "email",
+      },
+      "title": "You must enter a valid email address.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/signup should create a default team name when team name is optional and empty 1`] = `
+Array [
+  "csrf=ekEeeNexYe3; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; Secure; SameSite=Strict",
+  "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJub2Rld29vZCIsInN1YiI6IncweW1YTXZkIiwiZXhwIjoxNTc4NDQxNjAwLCJ1X3NlcmllcyI6IncweW1YTXZkIiwiZ19zZXJpZXMiOiJ3MHltWE12ZCIsImNzcmYiOiJla0VlZU5leFllMyIsInRlYW0iOiJ3MHltWE12ZCIsInJvbGUiOiJvd25lciIsImlhdCI6MTU3NzgzNjgwMH0.5teZP3pe9s4WTzYqhvXXfJzfvAZ9GyztH0r_RK4oPGs; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; HttpOnly; Secure; SameSite=Strict",
+]
+`;
+
+exports[`PublicUsersController POST /public/signup should create a default team name when team name is optional and empty 2`] = `
+Object {
+  "account_type": "user",
+  "created_at": Any<Date>,
+  "email": "valid@email.com",
+  "email_confirmed": false,
+  "flags": Any<Object>,
+  "id": 1,
+  "jwt_series": 1,
+  "last_logged_in_at": 2020-01-01T00:00:00.000Z,
+  "name": "user name",
+  "password": Any<String>,
+  "secure_flags": Any<Object>,
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`PublicUsersController POST /public/signup should create a default team name when team name is optional and empty 3`] = `
+Object {
+  "created_at": Any<Date>,
+  "currency": "usd",
+  "flags": Object {},
+  "id": 1,
+  "name": "user name's Team",
+  "secure_flags": Object {},
+  "stripe_customer_id": null,
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`PublicUsersController POST /public/signup should create a user 1`] = `
+Array [
+  "csrf=ekEeeNexYe3; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; Secure; SameSite=Strict",
+  "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJub2Rld29vZCIsInN1YiI6IncweW1YTXZkIiwiZXhwIjoxNTc4NDQxNjAwLCJ1X3NlcmllcyI6IncweW1YTXZkIiwiZ19zZXJpZXMiOiJ3MHltWE12ZCIsImNzcmYiOiJla0VlZU5leFllMyIsInRlYW0iOiJ3MHltWE12ZCIsInJvbGUiOiJvd25lciIsImlhdCI6MTU3NzgzNjgwMH0.5teZP3pe9s4WTzYqhvXXfJzfvAZ9GyztH0r_RK4oPGs; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; HttpOnly; Secure; SameSite=Strict",
+]
+`;
+
+exports[`PublicUsersController POST /public/signup should create a user 2`] = `
+Object {
+  "account_type": "user",
+  "created_at": Any<Date>,
+  "email": "valid@email.com",
+  "email_confirmed": false,
+  "flags": Any<Object>,
+  "id": 1,
+  "jwt_series": 1,
+  "last_logged_in_at": 2020-01-01T00:00:00.000Z,
+  "name": "name",
+  "password": Any<String>,
+  "secure_flags": Any<Object>,
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`PublicUsersController POST /public/signup should create a user 3`] = `
+Object {
+  "created_at": Any<Date>,
+  "currency": "usd",
+  "flags": Object {},
+  "id": 1,
+  "name": "name's Team",
+  "secure_flags": Object {},
+  "stripe_customer_id": null,
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`PublicUsersController POST /public/signup should use a different name for team when teams enabled 1`] = `
+Array [
+  "csrf=ekEeeNexYe3; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; Secure; SameSite=Strict",
+  "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJub2Rld29vZCIsInN1YiI6IncweW1YTXZkIiwiZXhwIjoxNTc4NDQxNjAwLCJ1X3NlcmllcyI6IncweW1YTXZkIiwiZ19zZXJpZXMiOiJ3MHltWE12ZCIsImNzcmYiOiJla0VlZU5leFllMyIsInRlYW0iOiJ3MHltWE12ZCIsInJvbGUiOiJvd25lciIsImlhdCI6MTU3NzgzNjgwMH0.5teZP3pe9s4WTzYqhvXXfJzfvAZ9GyztH0r_RK4oPGs; Max-Age=604800; Path=/; Expires=Wed, 08 Jan 2020 00:00:00 GMT; HttpOnly; Secure; SameSite=Strict",
+]
+`;
+
+exports[`PublicUsersController POST /public/signup should use a different name for team when teams enabled 2`] = `
+Object {
+  "account_type": "user",
+  "created_at": Any<Date>,
+  "email": "valid@email.com",
+  "email_confirmed": false,
+  "flags": Any<Object>,
+  "id": 1,
+  "jwt_series": 1,
+  "last_logged_in_at": 2020-01-01T00:00:00.000Z,
+  "name": "user name",
+  "password": Any<String>,
+  "secure_flags": Any<Object>,
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`PublicUsersController POST /public/signup should use a different name for team when teams enabled 3`] = `
+Object {
+  "created_at": Any<Date>,
+  "currency": "usd",
+  "flags": Object {},
+  "id": 1,
+  "name": "team name",
+  "secure_flags": Object {},
+  "stripe_customer_id": null,
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`PublicUsersController POST /public/signup should validate form 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_EMAIL",
+      "source": Object {
+        "parameter": "email",
+      },
+      "title": "You must enter a valid email address.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "name",
+      },
+      "title": "You must enter a name.",
+    },
+    Object {
+      "code": "ERROR_MIN_LENGTH",
+      "meta": Object {
+        "minLength": 8,
+      },
+      "source": Object {
+        "parameter": "password",
+      },
+      "title": "Password must be at least 8 characters.",
+    },
+    Object {
+      "code": "ERROR_MATCH_FIELD",
+      "meta": Object {
+        "matchField": "password",
+      },
+      "source": Object {
+        "parameter": "password_repeat",
+      },
+      "title": "Passwords must match.",
+    },
+  ],
+}
+`;
+
+exports[`PublicUsersController POST /public/signup should validate form when teams are enabled 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_EMAIL",
+      "source": Object {
+        "parameter": "email",
+      },
+      "title": "You must enter a valid email address.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "name",
+      },
+      "title": "You must enter a name.",
+    },
+    Object {
+      "code": "ERROR_MIN_LENGTH",
+      "meta": Object {
+        "minLength": 8,
+      },
+      "source": Object {
+        "parameter": "password",
+      },
+      "title": "Password must be at least 8 characters.",
+    },
+    Object {
+      "code": "ERROR_MATCH_FIELD",
+      "meta": Object {
+        "matchField": "password",
+      },
+      "source": Object {
+        "parameter": "password_repeat",
+      },
+      "title": "Passwords must match.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "team_name",
+      },
+      "title": "You must enter a team name.",
+    },
+  ],
+}
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoAccessController GET /no-access should disallow access when no subscription 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "You require a subscription to access this resource.",
+    },
+  ],
+  "redirect_to": "/subscription",
+}
+`;
+
+exports[`NoAccessController GET /no-access should disallow access when subscription without capabilities 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Your subscription does not have the capability to access this resource.",
+    },
+  ],
+  "redirect_to": "/subscription",
+}
+`;

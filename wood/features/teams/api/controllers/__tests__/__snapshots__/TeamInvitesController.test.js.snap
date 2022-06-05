@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamInvitesController DELETE /team/invites/:email should ensure user has permission to cancel invites 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Your role does not have the permissions to access this resource.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`TeamInvitesController DELETE /team/invites/:email should error if invite is for another team 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "source": Object {
+        "parameter": "email",
+      },
+      "title": "Could not find invite with email 'exists@domain.com' to cancel.",
+    },
+  ],
+}
+`;
+
+exports[`TeamInvitesController DELETE /team/invites/:email should error if no invite for that email adddress 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_FOUND",
+      "source": Object {
+        "parameter": "email",
+      },
+      "title": "Could not find invite with email 'exists@domain.com' to cancel.",
+    },
+  ],
+}
+`;
+
+exports[`TeamInvitesController POST /team/invites should ensure user has permission to invite team members 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Your role does not have the permissions to access this resource.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`TeamInvitesController POST /team/invites should invite a team member 1`] = `
+Object {
+  "data": Object {
+    "invite": Object {
+      "email": "email@domain.com",
+      "name": "name",
+      "role": "owner",
+    },
+  },
+}
+`;
+
+exports[`TeamInvitesController POST /team/invites should not let you invite past subscription member limit 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVITE_MAX_MEMBERS",
+      "title": "Your subscription only allows for 2 team members.",
+    },
+  ],
+}
+`;
+
+exports[`TeamInvitesController POST /team/invites should only count members + invites from own team for member limit 1`] = `
+Object {
+  "data": Object {
+    "invite": Object {
+      "email": "exists@domain.com",
+      "name": "name",
+      "role": "member",
+    },
+  },
+}
+`;
+
+exports[`TeamInvitesController POST /team/invites should re-send invite for duplicate team member, updating role & token 1`] = `
+Object {
+  "data": Object {
+    "invite": Object {
+      "email": "exists@domain.com",
+      "name": "name",
+      "role": "member",
+    },
+  },
+}
+`;
+
+exports[`TeamInvitesController POST /team/invites should take invites into account when considering member limit 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVITE_MAX_MEMBERS",
+      "title": "Your subscription only allows for 2 team members.",
+    },
+  ],
+}
+`;
+
+exports[`TeamInvitesController POST /team/invites should validate the request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_EMAIL",
+      "source": Object {
+        "parameter": "email",
+      },
+      "title": "You must enter a valid email address.",
+    },
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "name",
+      },
+      "title": "You must enter a name.",
+    },
+    Object {
+      "code": "ERROR_NOT_IN_LIST",
+      "meta": Object {
+        "list": Array [
+          "owner",
+          "member",
+        ],
+      },
+      "source": Object {
+        "parameter": "role",
+      },
+      "title": "You must select a valid role.",
+    },
+  ],
+}
+`;

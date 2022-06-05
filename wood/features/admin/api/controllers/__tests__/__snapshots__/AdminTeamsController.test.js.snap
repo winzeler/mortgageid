@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminTeamsController DELETE /admin/teams/:id should delete a team 1`] = `
+Object {
+  "account_type": "account_type",
+  "created_at": Any<Date>,
+  "email": "user2@email.com",
+  "email_confirmed": false,
+  "flags": Object {},
+  "id": 2,
+  "jwt_series": 1,
+  "last_logged_in_at": null,
+  "name": "name",
+  "password": "password",
+  "secure_flags": Object {},
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`AdminTeamsController GET /admin/teams should list first page of teams, in reverse order of creation 1`] = `
+Object {
+  "data": Object {
+    "teams": Array [
+      Object {
+        "created_at": Any<String>,
+        "currency": "usd",
+        "flags": Object {},
+        "id": 3,
+        "name": "team3",
+        "updated_at": Any<String>,
+      },
+      Object {
+        "created_at": Any<String>,
+        "currency": "usd",
+        "flags": Object {},
+        "id": 2,
+        "name": "team2",
+        "updated_at": Any<String>,
+      },
+    ],
+  },
+  "meta": Object {
+    "pages": 2,
+  },
+}
+`;
+
+exports[`AdminTeamsController GET /admin/teams should list first page of teams, with subscription added 1`] = `
+Object {
+  "data": Object {
+    "teams": Array [
+      Object {
+        "created_at": Any<String>,
+        "currency": "usd",
+        "flags": Object {},
+        "id": 3,
+        "name": "team3",
+        "subscription": Object {
+          "coupon_id": null,
+          "created_at": Any<String>,
+          "id": 1,
+          "next_billing_date": "2020-01-31T00:00:00.000Z",
+          "next_invoice_total": 0,
+          "price_id": "price_simple_monthly",
+          "product_id": "prod_simple",
+          "status": "active",
+          "subscription_id": "subscription_id_3",
+          "tax_ids": Array [],
+          "team_id": 3,
+          "trial_ends_at": null,
+          "updated_at": Any<String>,
+        },
+        "updated_at": Any<String>,
+      },
+      Object {
+        "created_at": Any<String>,
+        "currency": "usd",
+        "flags": Object {},
+        "id": 2,
+        "name": "team2",
+        "subscription": Object {
+          "coupon_id": null,
+          "created_at": Any<String>,
+          "id": 2,
+          "next_billing_date": "2020-01-31T00:00:00.000Z",
+          "next_invoice_total": 0,
+          "price_id": "price_advanced_monthly",
+          "product_id": "prod_advanced",
+          "status": "active",
+          "subscription_id": "subscription_id_2",
+          "tax_ids": Array [],
+          "team_id": 2,
+          "trial_ends_at": null,
+          "updated_at": Any<String>,
+        },
+        "updated_at": Any<String>,
+      },
+    ],
+  },
+  "meta": Object {
+    "pages": 2,
+  },
+}
+`;
+
+exports[`AdminTeamsController GET /admin/teams should validate the request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_INTEGER",
+      "source": Object {
+        "parameter": "page",
+      },
+      "title": "You must enter a valid page number.",
+    },
+    Object {
+      "code": "ERROR_INVALID_INTEGER",
+      "source": Object {
+        "parameter": "per",
+      },
+      "title": "You must enter a valid number of entries per page.",
+    },
+  ],
+}
+`;
+
+exports[`AdminTeamsController PUT /admin/teams/:id should update the team 1`] = `
+Object {
+  "created_at": Any<Date>,
+  "currency": "usd",
+  "flags": Object {},
+  "id": 2,
+  "name": "new name",
+  "secure_flags": Object {},
+  "stripe_customer_id": "abc",
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`AdminTeamsController PUT /admin/teams/:id should validate the request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "name",
+      },
+      "title": "You must enter a team name.",
+    },
+  ],
+}
+`;

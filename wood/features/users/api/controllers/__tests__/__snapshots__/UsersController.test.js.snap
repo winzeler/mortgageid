@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersController GET /me should return current users info 1`] = `
+Object {
+  "data": Object {
+    "role": Object {
+      "id": "owner",
+    },
+    "subscription": null,
+    "team": Object {
+      "created_at": Any<String>,
+      "currency": "usd",
+      "flags": Object {},
+      "id": 1,
+      "name": "name",
+      "updated_at": Any<String>,
+    },
+    "user": Object {
+      "account_type": "user",
+      "created_at": Any<String>,
+      "email": "user@email.com",
+      "email_confirmed": true,
+      "flags": Object {},
+      "id": 1,
+      "last_logged_in_at": null,
+      "name": "name",
+      "teams": Array [],
+      "updated_at": Any<String>,
+    },
+  },
+}
+`;
+
+exports[`UsersController GET /me should return info with a subscription 1`] = `
+Object {
+  "data": Object {
+    "role": Object {
+      "id": "owner",
+    },
+    "subscription": Object {
+      "id": 1,
+      "next_billing_date": "2020-01-31T00:00:00+00:00",
+      "next_invoice_total": 0,
+      "price_id": "price_simple_monthly",
+      "product_id": "prod_simple",
+      "status": "active",
+      "subscription_id": "subscription_id",
+      "tax_ids": Array [],
+      "team_id": 1,
+      "trial_ends_at": null,
+    },
+    "team": Object {
+      "created_at": Any<String>,
+      "currency": "usd",
+      "flags": Object {},
+      "id": 1,
+      "name": "name",
+      "updated_at": Any<String>,
+    },
+    "user": Object {
+      "account_type": "user",
+      "created_at": Any<String>,
+      "email": "user@email.com",
+      "email_confirmed": true,
+      "flags": Object {},
+      "id": 1,
+      "last_logged_in_at": null,
+      "name": "name",
+      "teams": Array [],
+      "updated_at": Any<String>,
+    },
+  },
+}
+`;
+
+exports[`UsersController GET /me should return unauthorized when JWT has expired 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Not authorized.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`UsersController GET /me should return unauthorized when global JWT series mismatch 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Not authorized.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`UsersController GET /me should return unauthorized when invalid csrf token 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Not authorized.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`UsersController GET /me should return unauthorized when no csrf token 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Not authorized.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`UsersController GET /me should return unauthorized when user JWT series mismatch 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Not authorized.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`UsersController GET /me should update subscription next_billing_date 1`] = `
+Object {
+  "data": Object {
+    "role": Object {
+      "id": "owner",
+    },
+    "subscription": Object {
+      "id": 1,
+      "next_billing_date": "2020-01-31T00:00:00+00:00",
+      "next_invoice_total": 1234,
+      "price_id": "price_simple_monthly",
+      "product_id": "prod_simple",
+      "status": "active",
+      "subscription_id": "subscription_id",
+      "tax_ids": Array [],
+      "team_id": 1,
+      "trial_ends_at": null,
+    },
+    "team": Object {
+      "created_at": Any<String>,
+      "currency": "usd",
+      "flags": Object {},
+      "id": 1,
+      "name": "name",
+      "updated_at": Any<String>,
+    },
+    "user": Object {
+      "account_type": "user",
+      "created_at": Any<String>,
+      "email": "user@email.com",
+      "email_confirmed": true,
+      "flags": Object {},
+      "id": 1,
+      "last_logged_in_at": null,
+      "name": "name",
+      "teams": Array [],
+      "updated_at": Any<String>,
+    },
+  },
+}
+`;
+
+exports[`UsersController POST /resend-confirmation should properly catch PayloadTooLarge errors 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_PAYLOAD_TOO_LARGE",
+      "title": "Payload too large (max 102400, actual: 1028457.",
+    },
+  ],
+}
+`;
+
+exports[`UsersController POST /users/support should send support request email 1`] = `
+"Message: This is a support request message.
+
+User: name (user@email.com)"
+`;
+
+exports[`UsersController PUT / should not complain about missing passwords 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "name",
+      },
+      "title": "You must enter a name.",
+    },
+  ],
+}
+`;
+
+exports[`UsersController PUT / should update user 1`] = `
+Object {
+  "account_type": "user",
+  "created_at": Any<Date>,
+  "email": "user@email.com",
+  "email_confirmed": true,
+  "flags": Object {},
+  "id": 1,
+  "jwt_series": 1,
+  "last_logged_in_at": null,
+  "name": "new name",
+  "password": StringNotMatching /password/,
+  "secure_flags": Object {},
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`UsersController PUT / should validate form 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "name",
+      },
+      "title": "You must enter a name.",
+    },
+    Object {
+      "code": "ERROR_MIN_LENGTH",
+      "meta": Object {
+        "minLength": 8,
+      },
+      "source": Object {
+        "parameter": "password",
+      },
+      "title": "Password must be at least 8 characters.",
+    },
+    Object {
+      "code": "ERROR_MATCH_FIELD",
+      "meta": Object {
+        "matchField": "password",
+      },
+      "source": Object {
+        "parameter": "password_repeat",
+      },
+      "title": "Passwords must match.",
+    },
+  ],
+}
+`;

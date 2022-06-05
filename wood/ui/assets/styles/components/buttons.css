@@ -1,0 +1,63 @@
+button, .btn {
+  @apply bg-white text-themeBackground-800 font-semibold py-2 px-4 border border-themeBackground-400 rounded shadow;
+}
+button:hover, .btn:hover {
+  @apply bg-themeBackground-200;
+}
+button:active, .btn:active {
+  @apply bg-themeBackground-400 shadow-lg;
+}
+button:disabled, .btn:disabled {
+  @apply text-themeBackground-400 border-themeBackground-200;
+}
+button:disabled:hover, .btn:disabled:hover {
+  @apply bg-white cursor-default;
+}
+
+button.btn-primary, .btn.btn-primary {
+  @apply bg-themePrimary-500 text-white;
+}
+button.btn-primary:hover, .btn.btn-primary:hover {
+  @apply bg-themePrimary-700 border-themeBackground-200;
+}
+button.btn-primary:active, .btn.btn-primary:active {
+  @apply bg-themePrimary-800 shadow-lg;
+}
+button.btn-primary:disabled, .btn.btn-primary:disabled {
+  @apply bg-themePrimary-400 text-themePrimary-300;
+}
+button.btn-primary:disabled:hover, .btn.btn-primary:disabled:hover {
+  @apply bg-themePrimary-400 cursor-default;
+}
+
+button.btn-secondary, .btn.btn-secondary {
+  @apply border-none shadow-none bg-transparent text-themeSecondary-500;
+}
+button.btn-secondary:hover, .btn.btn-secondary:hover {
+  @apply text-themeSecondary-700;
+}
+button.btn-secondary:active, .btn.btn-secondary:active {
+  @apply text-themeSecondary-800;
+}
+button.btn-secondary:disabled, .btn.btn-secondary:disabled {
+  @apply border-none shadow-none bg-transparent text-themeBackground-500;
+}
+button.btn-secondary:disabled:hover, .btn.btn-secondary:disabled:hover {
+  @apply text-themeBackground-500 cursor-default;
+}
+
+button.btn-critical, .btn.btn-critical {
+  @apply bg-themeCritical-500 text-white;
+}
+button.btn-critical:hover, .btn.btn-critical:hover {
+  @apply bg-themeCritical-700 border-themeBackground-200;
+}
+button.btn-critical:active, .btn.btn-critical:active {
+  @apply bg-themeCritical-800 shadow-lg;
+}
+button.btn-critical:disabled, .btn.btn-critical:disabled {
+  @apply bg-themeCritical-400 text-themeCritical-200;
+}
+button.btn-critical:disabled:hover, .btn.btn-critical:disabled:hover {
+  @apply bg-themeCritical-400 cursor-default;
+}

@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminUsersController GET /admin/users should list first page of users, in reverse order of creation 1`] = `
+Object {
+  "data": Object {
+    "users": Array [
+      Object {
+        "account_type": "user",
+        "created_at": Any<String>,
+        "email": "user2@email.com",
+        "email_confirmed": false,
+        "flags": Object {},
+        "id": 2,
+        "last_logged_in_at": null,
+        "name": "name2",
+        "teams": Array [],
+        "updated_at": Any<String>,
+      },
+      Object {
+        "account_type": "user",
+        "created_at": Any<String>,
+        "email": "user3@email.com",
+        "email_confirmed": false,
+        "flags": Object {},
+        "id": 3,
+        "last_logged_in_at": null,
+        "name": "name3",
+        "teams": Array [],
+        "updated_at": Any<String>,
+      },
+    ],
+  },
+  "meta": Object {
+    "pages": 2,
+  },
+}
+`;
+
+exports[`AdminUsersController GET /admin/users should list first page of users, with subscription added 1`] = `
+Object {
+  "data": Object {
+    "users": Array [
+      Object {
+        "account_type": "user",
+        "created_at": Any<String>,
+        "email": "user2@email.com",
+        "email_confirmed": false,
+        "flags": Object {},
+        "id": 2,
+        "last_logged_in_at": null,
+        "name": "name2",
+        "teams": Array [
+          Object {
+            "role": Object {
+              "id": "member",
+            },
+            "team": Object {
+              "created_at": Any<String>,
+              "currency": "usd",
+              "flags": Object {},
+              "id": 2,
+              "name": "team2",
+              "subscription": Object {
+                "id": 2,
+                "next_billing_date": "2020-01-31T00:00:00+00:00",
+                "next_invoice_total": 0,
+                "price_id": "price_advanced_monthly",
+                "product_id": "prod_advanced",
+                "status": "active",
+                "subscription_id": "subscription_id_2",
+                "tax_ids": Array [],
+                "team_id": 2,
+                "trial_ends_at": null,
+              },
+              "updated_at": Any<String>,
+            },
+          },
+        ],
+        "updated_at": Any<String>,
+      },
+      Object {
+        "account_type": "user",
+        "created_at": Any<String>,
+        "email": "user3@email.com",
+        "email_confirmed": false,
+        "flags": Object {},
+        "id": 3,
+        "last_logged_in_at": null,
+        "name": "name3",
+        "teams": Array [
+          Object {
+            "role": Object {
+              "id": "owner",
+            },
+            "team": Object {
+              "created_at": Any<String>,
+              "currency": "usd",
+              "flags": Object {},
+              "id": 3,
+              "name": "team3",
+              "subscription": Object {
+                "id": 1,
+                "next_billing_date": "2020-01-31T00:00:00+00:00",
+                "next_invoice_total": 0,
+                "price_id": "price_simple_monthly",
+                "product_id": "prod_simple",
+                "status": "active",
+                "subscription_id": "subscription_id_3",
+                "tax_ids": Array [],
+                "team_id": 3,
+                "trial_ends_at": null,
+              },
+              "updated_at": Any<String>,
+            },
+          },
+        ],
+        "updated_at": Any<String>,
+      },
+    ],
+  },
+  "meta": Object {
+    "pages": 2,
+  },
+}
+`;
+
+exports[`AdminUsersController GET /admin/users should list first page of users, with team & role added 1`] = `
+Object {
+  "data": Object {
+    "users": Array [
+      Object {
+        "account_type": "user",
+        "created_at": Any<String>,
+        "email": "user2@email.com",
+        "email_confirmed": false,
+        "flags": Object {},
+        "id": 2,
+        "last_logged_in_at": null,
+        "name": "name2",
+        "teams": Array [
+          Object {
+            "role": Object {
+              "id": "member",
+            },
+            "team": Object {
+              "created_at": Any<String>,
+              "currency": "usd",
+              "flags": Object {},
+              "id": 2,
+              "name": "team2",
+              "updated_at": Any<String>,
+            },
+          },
+        ],
+        "updated_at": Any<String>,
+      },
+      Object {
+        "account_type": "user",
+        "created_at": Any<String>,
+        "email": "user3@email.com",
+        "email_confirmed": false,
+        "flags": Object {},
+        "id": 3,
+        "last_logged_in_at": null,
+        "name": "name3",
+        "teams": Array [
+          Object {
+            "role": Object {
+              "id": "owner",
+            },
+            "team": Object {
+              "created_at": Any<String>,
+              "currency": "usd",
+              "flags": Object {},
+              "id": 3,
+              "name": "team3",
+              "updated_at": Any<String>,
+            },
+          },
+        ],
+        "updated_at": Any<String>,
+      },
+    ],
+  },
+  "meta": Object {
+    "pages": 2,
+  },
+}
+`;
+
+exports[`AdminUsersController GET /admin/users should validate the request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_INVALID_INTEGER",
+      "source": Object {
+        "parameter": "page",
+      },
+      "title": "You must enter a valid page number.",
+    },
+    Object {
+      "code": "ERROR_INVALID_INTEGER",
+      "source": Object {
+        "parameter": "per",
+      },
+      "title": "You must enter a valid number of entries per page.",
+    },
+  ],
+}
+`;
+
+exports[`AdminUsersController PUT /admin/users/:id should update the user 1`] = `
+Object {
+  "account_type": "user",
+  "created_at": Any<Date>,
+  "email": "user2@email.com",
+  "email_confirmed": false,
+  "flags": Object {},
+  "id": 2,
+  "jwt_series": 1,
+  "last_logged_in_at": null,
+  "name": "new name",
+  "password": Any<String>,
+  "secure_flags": Object {},
+  "updated_at": Any<Date>,
+}
+`;
+
+exports[`AdminUsersController PUT /admin/users/:id should validate the request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "name",
+      },
+      "title": "You must enter a name.",
+    },
+    Object {
+      "code": "ERROR_NOT_IN_LIST",
+      "meta": Object {
+        "list": Array [
+          "admin",
+          "user",
+        ],
+      },
+      "source": Object {
+        "parameter": "account_type",
+      },
+      "title": "You must select a valid account type.",
+    },
+  ],
+}
+`;

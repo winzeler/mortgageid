@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamsController PUT /team should ensure user has permission to change team name 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_NOT_AUTHORIZED",
+      "title": "Your role does not have the permissions to access this resource.",
+    },
+  ],
+  "redirect_to": "/login",
+}
+`;
+
+exports[`TeamsController PUT /team should validate the request 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "code": "ERROR_EMPTY",
+      "source": Object {
+        "parameter": "name",
+      },
+      "title": "You must enter a team name.",
+    },
+  ],
+}
+`;

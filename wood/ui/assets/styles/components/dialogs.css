@@ -1,0 +1,10 @@
+/* Base dialog, extendable */
+.dialog-body {
+  @apply flex-grow pb-2 overflow-y-auto;
+}
+.dialog-buttons {
+  @apply flex justify-end items-center mt-2;
+}
+.dialog-buttons > * + * {
+  @apply ml-4;
+}
