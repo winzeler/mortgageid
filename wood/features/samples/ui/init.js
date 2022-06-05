@@ -24,14 +24,15 @@ class NodewoodSamplesInitUi extends InitUi {
         routeName: 'About',
       },
     },
-    {
-      path: '/components',
-      name: 'components',
-      component: () => import(/* webpackChunkName: "samples" */ '#features/samples/ui/pages/ComponentsPage'),
-      meta: {
-        routeName: 'Components',
-      },
-    }];
+    // {
+    //   path: '/components',
+    //   name: 'components',
+    //   component: () => import(/* webpackChunkName: "samples" */ '#features/samples/ui/pages/ComponentsPage'), // eslint-disable-line max-len, no-console
+    //   meta: {
+    //     routeName: 'Components',
+    //   },
+    // }
+    ];
   }
 }
 

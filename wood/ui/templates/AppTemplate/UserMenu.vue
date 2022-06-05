@@ -8,7 +8,7 @@
       <template #menu-text>
         <img
           class="w-8 h-8 rounded-full mr-4"
-          :src="gravatarUrl"
+          :src="profileSource"
           alt="Gravatar"
         >
         {{ userName }}
@@ -95,6 +95,13 @@ export default {
       return this.user
         ? `https://www.gravatar.com/avatar/${md5(this.user.email.trim().toLowerCase())}`
         : '';
+    },
+
+    /**
+     * Load the logo dynamically from either wood or app.
+     */
+    profileSource() {
+      return require('#ui/assets/user-solid.svg'); // eslint-disable-line global-require
     },
 
     /**

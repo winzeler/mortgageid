@@ -24,18 +24,19 @@ const uiConfig = {
    * @type {Array<Object>} Menu items that appear in the app sidebar.
    */
   appMenuEntries: [{
-    name: 'Home',
+    name: 'Start',
     path: '/',
-    icon: 'fa-home',
+    icon: 'fa-arrow-right',
   }, {
     name: 'About',
     path: '/about',
-    icon: 'fa-tasks',
-  }, {
-    name: 'Components',
-    path: '/components',
-    icon: 'fa-columns',
-  }],
+    icon: 'fa-question-circle',
+  }, // {
+    // name: 'Components',
+    // path: '/components',
+    // icon: 'fa-columns',
+  // }
+  ],
 
   /**
    * @type {Array<Object>} Menu items that appear in the admin sidebar.

@@ -9,7 +9,7 @@
     "@wood": "./wood"
   },
   "scripts": {
-    "lint": "npx eslint app wood",
+    "lint": "npx eslint --fix app wood",
     "migrate": "knex migrate:latest",
     "rollback": "knex migrate:rollback",
     "migrate-test": "knex migrate:latest --env test",

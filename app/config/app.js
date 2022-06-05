@@ -15,14 +15,16 @@ module.exports = {
   /**
    * @type {String} Common name for application.
    */
-  name: 'MortgageId',
+  name: 'MortgageID.com',
 
   // Overwrite default configs here
   /**
    * @type {Object} Enabled features.
    */
   features: {
-    app: [],
+    app: [
+      'vconnect',
+    ],
 
     /**
      * @type {Array<String>} List of enabled Nodewood features.
@@ -31,8 +33,8 @@ module.exports = {
       'samples',
       'users',
       'admin',
-      //'subscriptions',
-      //'teams',
+      // 'subscriptions',
+      // 'teams',
     ],
   },
 };
