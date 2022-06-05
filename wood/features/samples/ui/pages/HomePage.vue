@@ -6,35 +6,41 @@
 
     <div class="card-body">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pretium aliquam posuere.
-        Vestibulum pharetra nisl vel risus facilisis sollicitudin. Nulla id velit at turpis
-        scelerisque fringilla. Suspendisse ut maximus urna, vitae egestas elit. Quisque quis
-        metus. Nulla efficitur eleifend diam, et euismod libero fringilla ac. Maecenas blandit,
-        a tristique venenatis, dui ipsum tincidunt leo, vel vehicula ipsum dui id nisl. Cras
-        tincidunt et erat eu molestie. Nunc sodales tellus aliquam diam fermentum lobortis.
-        sagittis, enim sed congue vulputate, ante odio porttitor turpis, fermentum euismod erat ex
-        neque. Etiam sodales eu velit in imperdiet. Duis consectetur nisl dictum sollicitudin
-        finibus. Aliquam tellus lectus, mollis id mollis ac, iaculis ac sapien. Donec nec velit id
-        sem aliquam dignissim. Proin et facilisis libero.
+        <a href="https://mortgageid.com/">MortgageID</a> writes personal
+        credit data to block chain storage using Verida.
+        Essentially we put the credit score, and eventually the live credit
+        reports and thin loan application on the block chain.
+        Using decentralized identity we can give back control of access to
+        credit data to the individual.
       </p>
-
+      <br/>
+      Solves for bad customer experience when shopping for a mortgage.
+      Apply for a mortgage and get 10-15 annoying calls for
+      weeks from salespersons.
+      <br/>
+      Solves for rate shopping.  No need to get your credit
+      pulled a half dozen times.  MortgageID will solve this by
+      putting live credit on the block chain using Verida and controlling
+      lender access.
+      <br/>
+      Lenders can cut out the sales commission, often totaling 2-4 points
+      of the loan, and partner with MortgageID to find qualified borrowers
+      by connecting through Verida's secure messaging system to find
+      pre-qualified borrowers.
+      <br/>
+      <br/>
+      Lastly, and most important, solves for **discrimination in lending
+      by completely removing personal information from the front end of
+      the loan process. Giving users a MortgageID wallet will actually
+      address fair lending for the first time since the 70s. The current
+      approach is government run HMDA surveys followed by fines to the
+      worse offenders.
+      <br/>
       <p>
-        Vivamus odio diam, tincidunt sit amet lacus vitae, cursus lobortis erat. Ut tristique erat
-        nec elit faucibus bibendum. Nulla facilisi. Aenean maximus est eleifend, blandit nunc nec,
-        egestas neque. Integer vitae elit velit. Pellentesque placerat leo at eleifend vestibulum.
-        Sed molestie vulputate neque, vel pulvinar lectus dapibus eu. Ut rutrum, ligula sit amet
-        interdum lobortis, turpis lorem pellentesque turpis, ac iaculis lacus nisl non massa.
-        Praesent vulputate, metus in molestie suscipit, nibh mi feugiat sapien, eu elementum arcu
-        tellus ac dui. Pellentesque bibendum felis magna, vitae vestibulum nisl hendrerit in.
-        at libero augue. Duis sem turpis, porta ut purus a, hendrerit viverra turpis.
-      </p>
-
-      <p>
-        Donec luctus at elit sit amet consectetur. Duis et urna non sapien venenatis interdum in sit
-        amet augue. Nam ut quam a lacus facilisis faucibus sed a nisl. Nulla facilisi. Vestibulum
-        fermentum, mi id interdum accumsan, dui augue efficitur lorem, non aliquet erat lorem
-        pulvinar magna. Vestibulum lobortis ac ante vitae eleifend. Maecenas vitae congue quam.
-        Vivamus vel nulla dictum, aliquet diam in, dictum risus. Vivamus efficitur sagittis.
+        MortgageId & Verida give the borrower control over their data!
+        It enables users to store private borrower credit info,
+        reports where the user can give access to approved lenders securely.
+        Lenders can send loan offers securely through the blockchain.
       </p>
     </div>
   </div>
