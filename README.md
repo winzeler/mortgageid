@@ -9,11 +9,11 @@ Decentralized Identity for mortgage credit applications with Verida (overlayed o
 - es-list
 - Docker Desktop (nginx, postgres, express, app/api)
 
-.env REQUIRED! @winzeler on telegram or leave a GH Issue to request
-dotenv-sample
+- .env REQUIRED! @winzeler on telegram or leave a GH Issue to request
+- see also dotenv-sample
 
-./setup-dev.sh (installs cmd line scripts for docker startup, run migrations)
-./run-dev.sh 
+- ./setup-dev.sh (installs cmd line scripts for docker startup, run migrations)
+- ./run-dev.sh 
 
 # MortgageId
 
